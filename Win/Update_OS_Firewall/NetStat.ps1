@@ -1,0 +1,1 @@
+ipconfig /all > %userprofile%\Desktop\network_status.txt

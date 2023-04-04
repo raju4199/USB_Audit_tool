@@ -1,0 +1,1 @@
+netsh advfirewall show allprofiles > %userprofile%\Desktop\firewall_status.txt

@@ -1,0 +1,1 @@
+systeminfo | findstr /B /C:"OS Name" /C:"OS Version" /C:"Hotfix(s)" > %userprofile%\Desktop\os_version.txt

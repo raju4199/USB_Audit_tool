@@ -1,0 +1,1 @@
+net accounts > %userprofile%\Desktop\admin_password.txt

@@ -1,0 +1,1 @@
+devcon.exe listclass USB > %userprofile%\Desktop\peripheral_devices.txt

@@ -1,0 +1,1 @@
+netstat -ano > %userprofile%\Desktop\open_ports.txt

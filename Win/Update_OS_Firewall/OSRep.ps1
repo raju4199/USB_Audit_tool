@@ -1,0 +1,1 @@
+systeminfo > %userprofile%\Desktop\os_report.txt
