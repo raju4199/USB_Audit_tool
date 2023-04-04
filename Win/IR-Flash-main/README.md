@@ -1,9 +1,7 @@
-# What is IR-Flash ?
+# IR-Flash 
 Automated Script to capture forensic evidences (logs) from an Windows EndPoint. You do not need any hitups while collecting the logs. Just need to run the IR-dump.bat script with the administrative privilege. And see the script doing all the magic.
-* In return get me some subscribers for my YouTube Channel 👉 https://www.youtube.com/c/BlackPerl
-* If you like to support my creation and pay me back a little, you can buy me a coffee ☕ https://www.buymeacoffee.com/BlackPerl
 
-# What we are capturing here ?
+# it captures logs of:
   1. arp table of the current network
   2. ipconfig of this machine
   3. dnscache
@@ -41,5 +39,3 @@ Automated Script to capture forensic evidences (logs) from an Windows EndPoint. 
   8. Run- "IR-dump.bat /h" (Capures with windows file system hashes (very slow))
   9. Run- "IR-dump.bat /f /m /h" (All options above (Very Very Slow you probably don't want this), but can be done while needed)
 
-# Don't know the password for the log files ?
-  Watch the demo here 👉 https://youtu.be/6kOinwAB-BY
