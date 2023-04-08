@@ -1,0 +1,5 @@
+Check if SELINUX is installed
+sestatus
+An './llr_v4.5.sh: line XXX: selinux: command not found' error
+is not cause for concern, selinux may not be installed.
+**********

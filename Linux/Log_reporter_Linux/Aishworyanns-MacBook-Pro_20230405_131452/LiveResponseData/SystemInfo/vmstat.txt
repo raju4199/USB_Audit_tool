@@ -1,0 +1,3 @@
+vmstat
+cat /proc/vmstat
+***********

@@ -1,0 +1,992 @@
+find hidden directories
+EXAMPLE:
+/bin/. .
+/dev/.blKb
+/dev/shm/. .
+find / -type d -name ".*"
+**********
+/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew/.github
+/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew/.git
+/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew/.circleci
+/usr/local/Homebrew/Library/Taps/microsoft/homebrew-git/.git
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/.github
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/.git
+/usr/local/Homebrew/Library/Homebrew/.bundle
+/usr/local/Homebrew/.devcontainer
+/usr/local/Homebrew/.github
+/usr/local/Homebrew/.git
+/usr/local/Homebrew/.vscode
+/usr/local/Homebrew/.sublime
+/usr/local/Caskroom/git-credential-manager-core/.metadata
+/usr/local/lib/node_modules/npm/node_modules/.bin
+/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/.bin
+/usr/local/lib/node_modules/npm/node_modules/node-gyp/gyp/.github
+/usr/local/lib/node_modules/npm/node_modules/node-gyp/.github
+/usr/local/lib/python3.9/site-packages/aiohttp/.hash
+/usr/local/lib/python3.9/site-packages/cv2/.dylibs
+/usr/local/lib/python3.9/site-packages/torch/.dylibs
+/usr/local/lib/python3.9/site-packages/numpy/.dylibs
+/usr/local/lib/python3.9/site-packages/pystan/stan/lib/stan_math/.github
+/usr/local/lib/python3.9/site-packages/PIL/.dylibs
+/usr/local/lib/python3.9/site-packages/h5py/.dylibs
+/usr/local/lib/python3.9/site-packages/sklearn/.dylibs
+/usr/local/lib/python3.9/site-packages/httpstan/.dylibs
+/usr/local/lib/python3.9/site-packages/scipy/.dylibs
+/usr/local/lib/python3.9/site-packages/zmq/.dylibs
+/usr/local/Cellar/gmp/6.2.1_1/.brew
+/usr/local/Cellar/pandoc/3.1.1/.brew
+/usr/local/Cellar/pygments/2.14.0/.brew
+/usr/local/Cellar/gdbm/1.23/.brew
+/usr/local/Cellar/mpdecimal/2.5.1/.brew
+/usr/local/Cellar/libuv/1.44.2/.brew
+/usr/local/Cellar/mpfr/4.2.0/.brew
+/usr/local/Cellar/ipython/8.12.0/.brew
+/usr/local/Cellar/libyaml/0.2.5/.brew
+/usr/local/Cellar/brotli/1.0.9/.brew
+/usr/local/Cellar/icu4c/72.1/.brew
+/usr/local/Cellar/zeromq/4.3.4/.brew
+/usr/local/Cellar/readline/8.2.1/.brew
+/usr/local/Cellar/lz4/1.9.4/.brew
+/usr/local/Cellar/gcc/12.2.0/.brew
+/usr/local/Cellar/sqlite/3.41.2/.brew
+/usr/local/Cellar/c-ares/1.19.0/.brew
+/usr/local/Cellar/xz/5.4.2/.brew
+/usr/local/Cellar/libnghttp2/1.52.0/.brew
+/usr/local/Cellar/ca-certificates/2023-01-10/.brew
+/usr/local/Cellar/zstd/1.5.4/.brew
+/usr/local/Cellar/libsodium/1.0.18_1/.brew
+/usr/local/Cellar/isl/0.25/.brew
+/usr/local/Cellar/pyyaml/6.0_1/.brew
+/usr/local/Cellar/openssl@1.1/1.1.1t/.brew
+/usr/local/Cellar/openssl@1.1/1.1.1t/.bottle
+/usr/local/Cellar/jupyterlab/3.6.3/.brew
+/usr/local/Cellar/six/1.16.0_3/.brew
+/usr/local/Cellar/node/19.8.1/.brew
+/usr/local/Cellar/node/19.8.1/libexec/lib/node_modules/npm/node_modules/.bin
+/usr/local/Cellar/node/19.8.1/libexec/lib/node_modules/npm/node_modules/node-gyp/node_modules/.bin
+/usr/local/Cellar/node/19.8.1/libexec/lib/node_modules/npm/node_modules/node-gyp/gyp/.github
+/usr/local/Cellar/node/19.8.1/libexec/lib/node_modules/npm/node_modules/node-gyp/.github
+/usr/local/Cellar/python@3.11/3.11.2_1/.brew
+/usr/local/Cellar/python@3.9/3.9.16/.brew
+/usr/local/Cellar/libmpc/1.3.1/.brew
+/usr/local/share/keentools/.keentools
+/Library/Apple/System/Library/InstallerSandboxes/.PKInstallSandboxManager-SystemSoftware
+/Library/Image Capture/Supports/EPSON/.ICASingle.bundle
+/Library/Application Support/GarageBand/Learn to Play/.updates
+/Library/PostgreSQL/15/debug_symbols/pgAdmin4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/PIL/.dylibs
+/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/PIL/.dylibs
+/Library/InstallerSandboxes/.PKInstallSandboxManager
+/Library/SystemExtensions/.staging
+/System/Library/Compositions/.Localization.bundle
+/System/Library/Desktop Pictures/.thumbnails
+/System/Library/Desktop Pictures/Solid Colors/.thumbnails
+/System/Library/Templates/Data/.TemporaryItems
+/System/Volumes/Preboot/.Trashes
+/System/Volumes/Data/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew/.github
+/System/Volumes/Data/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew/.git
+/System/Volumes/Data/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew/.circleci
+/System/Volumes/Data/usr/local/Homebrew/Library/Taps/microsoft/homebrew-git/.git
+/System/Volumes/Data/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/.github
+/System/Volumes/Data/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/.git
+/System/Volumes/Data/usr/local/Homebrew/Library/Homebrew/.bundle
+/System/Volumes/Data/usr/local/Homebrew/.devcontainer
+/System/Volumes/Data/usr/local/Homebrew/.github
+/System/Volumes/Data/usr/local/Homebrew/.git
+/System/Volumes/Data/usr/local/Homebrew/.vscode
+/System/Volumes/Data/usr/local/Homebrew/.sublime
+/System/Volumes/Data/usr/local/Caskroom/git-credential-manager-core/.metadata
+/System/Volumes/Data/usr/local/lib/node_modules/npm/node_modules/.bin
+/System/Volumes/Data/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/.bin
+/System/Volumes/Data/usr/local/lib/node_modules/npm/node_modules/node-gyp/gyp/.github
+/System/Volumes/Data/usr/local/lib/node_modules/npm/node_modules/node-gyp/.github
+/System/Volumes/Data/usr/local/lib/python3.9/site-packages/aiohttp/.hash
+/System/Volumes/Data/usr/local/lib/python3.9/site-packages/cv2/.dylibs
+/System/Volumes/Data/usr/local/lib/python3.9/site-packages/torch/.dylibs
+/System/Volumes/Data/usr/local/lib/python3.9/site-packages/numpy/.dylibs
+/System/Volumes/Data/usr/local/lib/python3.9/site-packages/pystan/stan/lib/stan_math/.github
+/System/Volumes/Data/usr/local/lib/python3.9/site-packages/PIL/.dylibs
+/System/Volumes/Data/usr/local/lib/python3.9/site-packages/h5py/.dylibs
+/System/Volumes/Data/usr/local/lib/python3.9/site-packages/sklearn/.dylibs
+/System/Volumes/Data/usr/local/lib/python3.9/site-packages/httpstan/.dylibs
+/System/Volumes/Data/usr/local/lib/python3.9/site-packages/scipy/.dylibs
+/System/Volumes/Data/usr/local/lib/python3.9/site-packages/zmq/.dylibs
+/System/Volumes/Data/usr/local/Cellar/gmp/6.2.1_1/.brew
+/System/Volumes/Data/usr/local/Cellar/pandoc/3.1.1/.brew
+/System/Volumes/Data/usr/local/Cellar/pygments/2.14.0/.brew
+/System/Volumes/Data/usr/local/Cellar/gdbm/1.23/.brew
+/System/Volumes/Data/usr/local/Cellar/mpdecimal/2.5.1/.brew
+/System/Volumes/Data/usr/local/Cellar/libuv/1.44.2/.brew
+/System/Volumes/Data/usr/local/Cellar/mpfr/4.2.0/.brew
+/System/Volumes/Data/usr/local/Cellar/ipython/8.12.0/.brew
+/System/Volumes/Data/usr/local/Cellar/libyaml/0.2.5/.brew
+/System/Volumes/Data/usr/local/Cellar/brotli/1.0.9/.brew
+/System/Volumes/Data/usr/local/Cellar/icu4c/72.1/.brew
+/System/Volumes/Data/usr/local/Cellar/zeromq/4.3.4/.brew
+/System/Volumes/Data/usr/local/Cellar/readline/8.2.1/.brew
+/System/Volumes/Data/usr/local/Cellar/lz4/1.9.4/.brew
+/System/Volumes/Data/usr/local/Cellar/gcc/12.2.0/.brew
+/System/Volumes/Data/usr/local/Cellar/sqlite/3.41.2/.brew
+/System/Volumes/Data/usr/local/Cellar/c-ares/1.19.0/.brew
+/System/Volumes/Data/usr/local/Cellar/xz/5.4.2/.brew
+/System/Volumes/Data/usr/local/Cellar/libnghttp2/1.52.0/.brew
+/System/Volumes/Data/usr/local/Cellar/ca-certificates/2023-01-10/.brew
+/System/Volumes/Data/usr/local/Cellar/zstd/1.5.4/.brew
+/System/Volumes/Data/usr/local/Cellar/libsodium/1.0.18_1/.brew
+/System/Volumes/Data/usr/local/Cellar/isl/0.25/.brew
+/System/Volumes/Data/usr/local/Cellar/pyyaml/6.0_1/.brew
+/System/Volumes/Data/usr/local/Cellar/openssl@1.1/1.1.1t/.brew
+/System/Volumes/Data/usr/local/Cellar/openssl@1.1/1.1.1t/.bottle
+/System/Volumes/Data/usr/local/Cellar/jupyterlab/3.6.3/.brew
+/System/Volumes/Data/usr/local/Cellar/six/1.16.0_3/.brew
+/System/Volumes/Data/usr/local/Cellar/node/19.8.1/.brew
+/System/Volumes/Data/usr/local/Cellar/node/19.8.1/libexec/lib/node_modules/npm/node_modules/.bin
+/System/Volumes/Data/usr/local/Cellar/node/19.8.1/libexec/lib/node_modules/npm/node_modules/node-gyp/node_modules/.bin
+/System/Volumes/Data/usr/local/Cellar/node/19.8.1/libexec/lib/node_modules/npm/node_modules/node-gyp/gyp/.github
+/System/Volumes/Data/usr/local/Cellar/node/19.8.1/libexec/lib/node_modules/npm/node_modules/node-gyp/.github
+/System/Volumes/Data/usr/local/Cellar/python@3.11/3.11.2_1/.brew
+/System/Volumes/Data/usr/local/Cellar/python@3.9/3.9.16/.brew
+/System/Volumes/Data/usr/local/Cellar/libmpc/1.3.1/.brew
+/System/Volumes/Data/usr/local/share/keentools/.keentools
+/System/Volumes/Data/.Spotlight-V100
+/System/Volumes/Data/Library/Apple/System/Library/InstallerSandboxes/.PKInstallSandboxManager-SystemSoftware
+/System/Volumes/Data/Library/Image Capture/Supports/EPSON/.ICASingle.bundle
+/System/Volumes/Data/Library/Application Support/GarageBand/Learn to Play/.updates
+/System/Volumes/Data/Library/PostgreSQL/15/debug_symbols/pgAdmin4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/PIL/.dylibs
+/System/Volumes/Data/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/PIL/.dylibs
+/System/Volumes/Data/Library/InstallerSandboxes/.PKInstallSandboxManager
+/System/Volumes/Data/Library/SystemExtensions/.staging
+/System/Volumes/Data/System/Library/Compositions/.Localization.bundle
+/System/Volumes/Data/System/Library/Desktop Pictures/.thumbnails
+/System/Volumes/Data/System/Library/Desktop Pictures/Solid Colors/.thumbnails
+/System/Volumes/Data/System/Library/Templates/Data/.TemporaryItems
+/System/Volumes/Data/.fseventsd
+/System/Volumes/Data/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.CloudPhotosConfiguration/.LINKS
+/System/Volumes/Data/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.photolibraryd/.LINKS
+/System/Volumes/Data/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/.LINKS
+/System/Volumes/Data/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.intelligenceplatform.knowledgeconstructiond/.LINKS
+/System/Volumes/Data/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.photoanalysisd/.LINKS
+/System/Volumes/Data/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.mail/.LINKS
+/System/Volumes/Data/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.dmd/.LINKS
+/System/Volumes/Data/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.remindd/.LINKS
+/System/Volumes/Data/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/StatusKitAgent/.LINKS
+/System/Volumes/Data/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/AppTranslocation/834FF703-AEB2-459E-ABA7-07883B286B0F/d/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/.vscode
+/System/Volumes/Data/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.avatarsd/.LINKS
+/System/Volumes/Data/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.routined/.LINKS
+/System/Volumes/Data/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/.AddressBookLocks
+/System/Volumes/Data/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/homed/.LINKS
+/System/Volumes/Data/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.financed/.LINKS
+/System/Volumes/Data/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.mediaanalysisd/.LINKS
+/System/Volumes/Data/.DocumentRevisions-V100
+/System/Volumes/Data/Users/aishworyann/.eclipse
+/System/Volumes/Data/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/org.eclipse.core.runtime/.manager
+/System/Volumes/Data/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/144/0/.cp
+/System/Volumes/Data/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/154/0/.cp
+/System/Volumes/Data/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/.manager
+/System/Volumes/Data/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/113/0/.cp
+/System/Volumes/Data/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/140/0/.cp
+/System/Volumes/Data/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/org.eclipse.equinox.app/.manager
+/System/Volumes/Data/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/.metadata
+/System/Volumes/Data/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/.metadata/.plugins
+/System/Volumes/Data/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/.settings
+/System/Volumes/Data/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/.data
+/System/Volumes/Data/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/.data/.settings
+/System/Volumes/Data/Users/aishworyann/.config
+/System/Volumes/Data/Users/aishworyann/.config/.mono
+/System/Volumes/Data/Users/aishworyann/.config/.keentools
+/System/Volumes/Data/Users/aishworyann/Music/Music/Media.localized/.localized
+/System/Volumes/Data/Users/aishworyann/Music/Music/Media.localized/Automatically Add to Music.localized/.localized
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/bin/cache/flutter_web_sdk/.cipdpkg
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/ffi-1.1.2/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/shelf_web_socket-1.0.1/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/shelf-1.1.4/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/shelf_packages_handler-3.0.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/stream_transform-2.0.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/equatable-2.0.3/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/source_map_stack_trace-2.1.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/web_socket_channel-2.1.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/fixnum-1.0.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.1/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/yaml-3.1.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/sync_http-0.3.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/usage-4.0.2/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/pool-1.5.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_fonts-2.1.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/source_maps-0.10.10/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/browser_launcher-1.0.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/browser_launcher-1.0.0/.idea
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/lints-1.0.1/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/json_rpc_2-3.0.1/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.1/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/.cache
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/clock-1.1.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/completion-1.0.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/webdriver-3.0.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/http_multi_server-3.0.1/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/html-0.15.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.0/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/packages/flutter_tools/ide_templates/intellij/.idea
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/packages/flutter_tools/templates/app_shared/.idea
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/packages/flutter_tools/templates/module/common/.idea
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/packages/flutter_tools/templates/plugin/.idea
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/packages/flutter_tools/templates/package/.idea
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/packages/flutter_tools/.dart_tool
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.github
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/dev/integration_tests/android_host_app/.gradle
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/dev/integration_tests/module_host_with_custom_build/.gradle
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.git
+/System/Volumes/Data/Users/aishworyann/Developer/flutter/.idea
+/System/Volumes/Data/Users/aishworyann/.designer
+/System/Volumes/Data/Users/aishworyann/iCloud Drive (Archive) - 1/.Trash
+/System/Volumes/Data/Users/aishworyann/.dart
+/System/Volumes/Data/Users/aishworyann/.thumbnails
+/System/Volumes/Data/Users/aishworyann/.streamlit
+/System/Volumes/Data/Users/aishworyann/.local
+/System/Volumes/Data/Users/aishworyann/.dartServer
+/System/Volumes/Data/Users/aishworyann/.dartServer/.analysis-driver
+/System/Volumes/Data/Users/aishworyann/.dartServer/.instrumentation
+/System/Volumes/Data/Users/aishworyann/.p2
+/System/Volumes/Data/Users/aishworyann/.p2/org.eclipse.equinox.p2.engine/profileRegistry/_Users_aishworyann_eclipse_java-2021-06_Eclipse.app_Contents_Eclipse.profile/.data
+/System/Volumes/Data/Users/aishworyann/.p2/org.eclipse.equinox.p2.engine/.settings
+/System/Volumes/Data/Users/aishworyann/.p2/pool/.eclipseextension
+/System/Volumes/Data/Users/aishworyann/.ipython
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/People-Detector/.git
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/DDoS attack prev. using ML/.ipynb_checkpoints
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/DDoS attack prev. using ML/.git
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/DDoS attack prev. using ML/.idea
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/Stock Project/.ipynb_checkpoints
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/Stock Project/venv/lib/python3.9/site-packages/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/Stock Project/venv/lib/python3.9/site-packages/numpy/.dylibs
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/Stock Project/venv/lib/python3.9/site-packages/PIL/.dylibs
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/Stock Project/venv/lib/python3.9/site-packages/httpstan/.dylibs
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/Stock Project/venv/lib/python3.9/site-packages/zmq/.dylibs
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/Stock Project/.git
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/Stock Project/.idea
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/Human/yolov5/.github
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/Human/yolov5/.git
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/Human/Human_detection/.ipynb_checkpoints
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/Human/Human_detection/venv/lib/python3.9/site-packages/cv2/.dylibs
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/Human/Human_detection/venv/lib/python3.9/site-packages/numpy/.dylibs
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/Human/Human_detection/venv/lib/python3.9/site-packages/PIL/.dylibs
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/Human/Human_detection/venv/lib/python3.9/site-packages/h5py/.dylibs
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/Human/Human_detection/.git
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/PROJECTS/Human/Human_detection/.idea
+/System/Volumes/Data/Users/aishworyann/Desktop/Personal/Emotion_Detection_CNN-main/.ipynb_checkpoints
+/System/Volumes/Data/Users/aishworyann/Desktop/DataStructures-Algorithms-master/.git
+/System/Volumes/Data/Users/aishworyann/Desktop/i/.ipynb_checkpoints
+/System/Volumes/Data/Users/aishworyann/Desktop/i/zigzag_suffling/venv/lib/python3.9/site-packages/cv2/.dylibs
+/System/Volumes/Data/Users/aishworyann/Desktop/i/zigzag_suffling/venv/lib/python3.9/site-packages/numpy/.dylibs
+/System/Volumes/Data/Users/aishworyann/Desktop/i/zigzag_suffling/.idea
+/System/Volumes/Data/Users/aishworyann/Desktop/USB_AUDIT_TOOLS/.git
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/com.apple.voicememos/Recordings/.Recordings_SUPPORT
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/com.apple.voicememos/Recordings/.CloudRecordings_SUPPORT
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/discord/0.0.272/modules/discord_utils/node_modules/.bin
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/discord/0.0.272/modules/discord_utils/node_modules/superagent/node_modules/.bin
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/discord/0.0.272/modules/discord_utils/node_modules/cross-spawn/node_modules/.bin
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/discord/0.0.272/modules/discord_voice/node_modules/.bin
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/discord/0.0.272/modules/discord_voice/node_modules/cross-spawn/node_modules/.bin
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/discord/0.0.272/modules/discord_spellcheck/node_modules/.bin
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/discord/0.0.272/modules/discord_spellcheck/node_modules/cld/node_modules/.bin
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Animoji/CoreDataBackend/.avatars_SUPPORT
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/.metadata
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/.metadata/.plugins
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.core.runtime/.settings
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.core.resources/.history
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.core.resources/.root
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.core.resources/.safetable
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.core.resources/.projects
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/jdt.ls-java-project/.settings
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/java_69337515/.settings
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/.metadata
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/.metadata/.plugins
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.core.runtime/.settings
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.core.resources/.history
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.core.resources/.root
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.core.resources/.safetable
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.core.resources/.projects
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/jdt.ls-java-project/.settings
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/java_69337515/.settings
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_ss_mac/org.eclipse.core.runtime/.manager
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_ss_mac/org.eclipse.osgi/32/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_ss_mac/org.eclipse.osgi/35/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_ss_mac/org.eclipse.osgi/.manager
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_ss_mac/org.eclipse.equinox.app/.manager
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.core.runtime/.manager
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.osgi/92/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.osgi/50/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.osgi/60/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.osgi/45/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.osgi/74/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.osgi/75/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.osgi/.manager
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.osgi/76/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.equinox.app/.manager
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_ss_mac/org.eclipse.core.runtime/.manager
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_ss_mac/org.eclipse.osgi/32/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_ss_mac/org.eclipse.osgi/35/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_ss_mac/org.eclipse.osgi/.manager
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_ss_mac/org.eclipse.equinox.app/.manager
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.core.runtime/.manager
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.osgi/59/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.osgi/92/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.osgi/73/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.osgi/74/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.osgi/75/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.osgi/44/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.osgi/.manager
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.osgi/49/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.equinox.app/.manager
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_ss_mac/org.eclipse.core.runtime/.manager
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_ss_mac/org.eclipse.osgi/32/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_ss_mac/org.eclipse.osgi/35/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_ss_mac/org.eclipse.osgi/.manager
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_ss_mac/org.eclipse.equinox.app/.manager
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.core.runtime/.manager
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.osgi/59/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.osgi/73/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.osgi/74/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.osgi/75/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.osgi/44/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.osgi/91/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.osgi/.manager
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.osgi/49/0/.cp
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.equinox.app/.manager
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/JetBrains/IdeaIC2021.2/light-edit/.idea
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/JetBrains/PyCharmCE2021.3/light-edit/.idea
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/JetBrains/PyCharmCE2021.3/consoles/.history
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Adobe/CoreSync/plugins/livetype/.u
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Adobe/CoreSync/plugins/livetype/.r
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Adobe/CoreSync/plugins/livetype/.t
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Adobe/CoreSync/plugins/livetype/.c
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Adobe/CoreSync/plugins/livetype/.x
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Adobe/CoreSync/plugins/livetype/.e
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Adobe/CoreSync/plugins/livetype/.w
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Adobe/.User Owned Fonts
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/blenderkit_updater/source/dependencies/Linux/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/blenderkit_updater/source/dependencies/Darwin/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/blenderkit_updater/source/dependencies/Windows/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/blenderkit_updater/backup/blenderkit_updater/source/dependencies/Linux/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/blenderkit_updater/backup/blenderkit_updater/source/dependencies/Darwin/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/blenderkit_updater/backup/blenderkit_updater/source/dependencies/Windows/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/blenderkit_updater/backup/dependencies/Linux/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/blenderkit_updater/backup/dependencies/Darwin/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/blenderkit_updater/backup/dependencies/Windows/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/dependencies/Linux/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/dependencies/Darwin/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/dependencies/Windows/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/__MACOSX/blenderkit/dependencies/Linux/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/__MACOSX/blenderkit/dependencies/Darwin/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/__MACOSX/blenderkit/dependencies/Windows/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Library/Application Scripts/.SiriTodayViewExtension
+/System/Volumes/Data/Users/aishworyann/Library/Python/3.9/lib/python/site-packages/zmq/.dylibs
+/System/Volumes/Data/Users/aishworyann/Library/Android/sdk/tools/lib/monitor-x86_64/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/.data
+/System/Volumes/Data/Users/aishworyann/Library/Android/sdk/tools/lib/monitor-x86_64/p2/org.eclipse.equinox.p2.engine/.settings
+/System/Volumes/Data/Users/aishworyann/Library/Android/sdk/.downloadIntermediates
+/System/Volumes/Data/Users/aishworyann/Library/Android/sdk/.temp
+/System/Volumes/Data/Users/aishworyann/Library/Mobile Documents/com~apple~CloudDocs/.Trash
+/System/Volumes/Data/Users/aishworyann/Library/Finance/.finance_cloud_SUPPORT
+/System/Volumes/Data/Users/aishworyann/Library/Finance/.finance_local_SUPPORT
+/System/Volumes/Data/Users/aishworyann/Library/Group Containers/.SiriTodayViewExtension
+/System/Volumes/Data/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Proofing Tools.localized/.localized
+/System/Volumes/Data/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Startup.localized/.localized
+/System/Volumes/Data/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Document Elements.localized/.localized
+/System/Volumes/Data/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Templates.localized/.localized
+/System/Volumes/Data/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/.localized
+/System/Volumes/Data/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Style Sets.localized/.localized
+/System/Volumes/Data/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Chart Templates.localized/.localized
+/System/Volumes/Data/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Citations.localized/.localized
+/System/Volumes/Data/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Themes.localized/.localized
+/System/Volumes/Data/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Add-Ins.localized/.localized
+/System/Volumes/Data/Users/aishworyann/Library/Dictionaries/CoreDataUbiquitySupport/aishworyann~A728795A-3E20-555C-8AA2-8FBFAA51190B/UserDictionary/04F1CF29-F176-4D5A-8B92-ED1DB4B70C62/container/aishworyann~A728795A-3E20-555C-8AA2-8FBFAA51190B/.stage.nosync
+/System/Volumes/Data/Users/aishworyann/Library/Dictionaries/CoreDataUbiquitySupport/aishworyann~A728795A-3E20-555C-8AA2-8FBFAA51190B/UserDictionary/A15A4BA5-3814-468F-84DF-706A37183969/container/aishworyann~A728795A-3E20-555C-8AA2-8FBFAA51190B/.stage.nosync
+/System/Volumes/Data/Users/aishworyann/Library/Containers/com.apple.iWork.Numbers/Data/CloudKit/2d91488eaa6f4a1183020e4753ed6427cc8ed13d/MMCS/.cs
+/System/Volumes/Data/Users/aishworyann/Library/Containers/com.apple.mediastream.mstreamd/Data/Library/MediaStream/albumshare/20788238457+12995663331668476497/mmcs-pub/.cs
+/System/Volumes/Data/Users/aishworyann/Library/Containers/com.apple.iWork.Pages/Data/CloudKit/e2d322fadf09a2c27bc1c95fe2737e09eb9d4213/MMCS/.cs
+/System/Volumes/Data/Users/aishworyann/Library/Containers/com.macosgame.iwallpaper/Data/CloudKit/80f32356888917a98c5230a24d48ad58b9482eba/MMCS/.cs
+/System/Volumes/Data/Users/aishworyann/Library/Containers/com.apple.stocks.widget/Data/CloudKit/9ca101754d46d930fbac9a0fa57c9e7c48c7a3ec/MMCS/.cs
+/System/Volumes/Data/Users/aishworyann/Library/Caches/Google/AndroidStudio2020.3/index/stubs/.perFileVersion
+/System/Volumes/Data/Users/aishworyann/Library/Caches/Google/AndroidStudio2020.3/index/stubs/.versions
+/System/Volumes/Data/Users/aishworyann/Library/Caches/Google/AndroidStudio2020.3/index/frameworkdetectionindex/.perFileVersion
+/System/Volumes/Data/Users/aishworyann/Library/Caches/Google/AndroidStudio2020.3/index/todoindex/.perFileVersion
+/System/Volumes/Data/Users/aishworyann/Library/Caches/Google/AndroidStudio2020.3/index/idindex/.perFileVersion
+/System/Volumes/Data/Users/aishworyann/Library/Caches/Google/AndroidStudio2020.3/index/fileincludes/.perFileVersion
+/System/Volumes/Data/Users/aishworyann/Library/Caches/Google/AndroidStudio2020.3/index/.persistent
+/System/Volumes/Data/Users/aishworyann/Library/Caches/Google/AndroidStudio2020.3/compiler/chatapp.apk.2e846264/.generated
+/System/Volumes/Data/Users/aishworyann/Library/Caches/Google/AndroidStudio2020.3/compiler/messenger-master.4ca11cfd/.generated
+/System/Volumes/Data/Users/aishworyann/Library/Caches/Yarn/v6/.tmp
+/System/Volumes/Data/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/index/stubs/.perFileVersion
+/System/Volumes/Data/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/index/stubs/.versions
+/System/Volumes/Data/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/index/frameworkdetectionindex/.perFileVersion
+/System/Volumes/Data/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/index/todoindex/.perFileVersion
+/System/Volumes/Data/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/index/idindex/.perFileVersion
+/System/Volumes/Data/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/index/fileincludes/.perFileVersion
+/System/Volumes/Data/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/index/.persistent
+/System/Volumes/Data/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/compiler/mst.ad9811f0/.generated
+/System/Volumes/Data/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/compiler/saanjh.5cc7dbd7/.generated
+/System/Volumes/Data/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/compiler/mst.ad9795d0/.generated
+/System/Volumes/Data/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/compiler/secondser.9064c4e/.generated
+/System/Volumes/Data/Users/aishworyann/Library/Caches/JetBrains/PyCharmCE2021.3/index/stubs/.perFileVersion
+/System/Volumes/Data/Users/aishworyann/Library/Caches/JetBrains/PyCharmCE2021.3/index/stubs/.versions
+/System/Volumes/Data/Users/aishworyann/Library/Caches/JetBrains/PyCharmCE2021.3/index/frameworkdetectionindex/.perFileVersion
+/System/Volumes/Data/Users/aishworyann/Library/Caches/JetBrains/PyCharmCE2021.3/index/todoindex/.perFileVersion
+/System/Volumes/Data/Users/aishworyann/Library/Caches/JetBrains/PyCharmCE2021.3/index/idindex/.perFileVersion
+/System/Volumes/Data/Users/aishworyann/Library/Caches/JetBrains/PyCharmCE2021.3/index/fileincludes/.perFileVersion
+/System/Volumes/Data/Users/aishworyann/Library/Caches/JetBrains/PyCharmCE2021.3/index/.persistent
+/System/Volumes/Data/Users/aishworyann/Library/Caches/Adobe/typequest/.2
+/System/Volumes/Data/Users/aishworyann/Library/Caches/Adobe/typequest/.2/.a
+/System/Volumes/Data/Users/aishworyann/Library/Caches/Adobe/typequest/.2/.m
+/System/Volumes/Data/Users/aishworyann/Library/Caches/com.apple.python/Users/aishworyann/.vscode
+/System/Volumes/Data/Users/aishworyann/.matplotlib
+/System/Volumes/Data/Users/aishworyann/iCloud Drive (Archive)/.Trash
+/System/Volumes/Data/Users/aishworyann/.zenmap
+/System/Volumes/Data/Users/aishworyann/.android
+/System/Volumes/Data/Users/aishworyann/.pgadmin
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/numpy/.dylibs
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/PIL/.dylibs
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/sklearn/.dylibs
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/httpstan/.dylibs
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/scipy/.dylibs
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/zmq/.dylibs
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/pythonProject/.idea
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/pythonProject1/.idea
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/pythonProject6/.idea
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/Saanjh/.idea
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/KS/.idea
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/pythonProject5/.idea
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/pythonProject2/venv/lib/python3.9/site-packages/numpy/.dylibs
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/pythonProject2/venv/lib/python3.9/site-packages/PIL/.dylibs
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/pythonProject2/venv/lib/python3.9/site-packages/scipy/.dylibs
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/pythonProject2/.idea
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/Human_detection/.ipynb_checkpoints
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/Human_detection/venv/lib/python3.9/site-packages/cv2/.dylibs
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/Human_detection/venv/lib/python3.9/site-packages/numpy/.dylibs
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/Human_detection/venv/lib/python3.9/site-packages/PIL/.dylibs
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/Human_detection/venv/lib/python3.9/site-packages/h5py/.dylibs
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/Human_detection/.git
+/System/Volumes/Data/Users/aishworyann/PycharmProjects/Human_detection/.idea
+/System/Volumes/Data/Users/aishworyann/.cvlib
+/System/Volumes/Data/Users/aishworyann/Movies/TV/Media.localized/.localized
+/System/Volumes/Data/Users/aishworyann/Movies/TV/Media.localized/Automatically Add To TV.localized/.localized
+/System/Volumes/Data/Users/aishworyann/Movies/TV/Previous Libraries.localized/.localized
+/System/Volumes/Data/Users/aishworyann/Applications/Chrome Apps.localized/.localized
+/System/Volumes/Data/Users/aishworyann/.gradle
+/System/Volumes/Data/Users/aishworyann/.gradle/.tmp
+/System/Volumes/Data/Users/aishworyann/.Trash
+/System/Volumes/Data/Users/aishworyann/IdeaProjects/MST/.idea
+/System/Volumes/Data/Users/aishworyann/IdeaProjects/JAVA LAB/.idea
+/System/Volumes/Data/Users/aishworyann/IdeaProjects/saanjh/.idea
+/System/Volumes/Data/Users/aishworyann/IdeaProjects/try/.idea
+/System/Volumes/Data/Users/aishworyann/IdeaProjects/test pract/.idea
+/System/Volumes/Data/Users/aishworyann/IdeaProjects/practice/.idea
+/System/Volumes/Data/Users/aishworyann/IdeaProjects/secondser/.idea
+/System/Volumes/Data/Users/aishworyann/.sqldeveloper
+/System/Volumes/Data/Users/aishworyann/.sqldeveloper/system21.2.1.204.1703/o.sqldeveloper/projects/.data
+/System/Volumes/Data/Users/aishworyann/.sqldeveloper/system21.2.1.204.1703/system_cache/var/cache/netigso/org.eclipse.osgi/.manager
+/System/Volumes/Data/Users/aishworyann/.ipynb_checkpoints
+/System/Volumes/Data/Users/aishworyann/powerlevel10k/gitstatus/.vscode
+/System/Volumes/Data/Users/aishworyann/powerlevel10k/.git
+/System/Volumes/Data/Users/aishworyann/.jupyter
+/System/Volumes/Data/Users/aishworyann/.BurpSuite
+/System/Volumes/Data/Users/aishworyann/.keras
+/System/Volumes/Data/Users/aishworyann/.anydesk
+/System/Volumes/Data/Users/aishworyann/.mono
+/System/Volumes/Data/Users/aishworyann/.vscode
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/.devcontainer+raw+nopython
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/.devcontainer+raw+nopython/.devcontainer
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/pythonFiles/.vscode
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/.devcontainer+remote+nonconda
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/.devcontainer+remote+nonconda/.devcontainer
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/twxs.cmake-0.0.17/out/.vscode-test
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/twxs.cmake-0.0.17/node_modules/peg-cmake/.vscode
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/formulahendry.code-runner-0.12.0/.github
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/vscjava.vscode-java-dependency-0.21.2/templates/invisible-project/.vscode
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8/.vscode
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.6/.github
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.6/.vscode
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/vscjava.vscode-maven-0.40.4/resources/maven-wrapper/.mvn
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/ms-python.vscode-pylance-2023.2.40/dist/.cache
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/vscjava.vscode-java-dependency-0.21.1/templates/invisible-project/.vscode
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/ms-python.python-2022.20.2/pythonFiles/.vscode
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5/.vscode
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30/node_modules/ms-vsintellicode-typescript/node_modules/balanced-match/.github
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30/node_modules/ms-vsintellicode-typescript/node_modules/path-browserify/.github
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30/node_modules/ms-vsintellicode-typescript/node_modules/stream-browserify/.github
+/System/Volumes/Data/Users/aishworyann/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30/node_modules/ms-vsintellicode-typescript/node_modules/fastq/.github
+/System/Volumes/Data/Users/aishworyann/.swiftpm
+/System/Volumes/Data/Users/aishworyann/AndroidStudioProjects/firstapp/.gradle
+/System/Volumes/Data/Users/aishworyann/AndroidStudioProjects/firstapp/.idea
+/System/Volumes/Data/Users/aishworyann/Downloads/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/.vscode
+/System/Volumes/Data/Users/aishworyann/Downloads/blenderkit/dependencies/Linux/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Downloads/blenderkit/dependencies/Darwin/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Downloads/blenderkit/dependencies/Windows/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/Downloads/.ipynb_checkpoints
+/System/Volumes/Data/Users/aishworyann/Downloads/DDoS-prevention-using-ML-main/.ipynb_checkpoints
+/System/Volumes/Data/Users/aishworyann/.cache
+/System/Volumes/Data/Users/aishworyann/.zsh_sessions
+/System/Volumes/Data/Users/aishworyann/blenderkit_data/daemon/dependencies/3-5-1/3-9/installed/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/blenderkit_data/daemon/dependencies/3-3-2/preinstalled/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/blenderkit_data/daemon/dependencies/3-4-0/preinstalled/aiohttp/.hash
+/System/Volumes/Data/Users/aishworyann/blenderkit_data/daemon/dependencies/3-3-1/preinstalled/aiohttp/.hash
+/System/Volumes/Data/Users/Shared/Epic Games/UE_4.27/Engine/Plugins/VirtualProduction/RemoteControlWebInterface/WebApp/.vscode
+/System/Volumes/Data/Users/Shared/Epic Games/UE_4.27/Engine/Binaries/ThirdParty/Mono/Mac/lib/mono/xbuild-frameworks/.NETFramework
+/System/Volumes/Data/Users/Shared/Epic Games/UE_4.27/Engine/Build/Android/Java/gradle/.idea
+/System/Volumes/Data/Users/Shared/Epic Games/UE_4.27/.egstore
+/System/Volumes/Data/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/express/node_modules/send/node_modules/.bin
+/System/Volumes/Data/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/redis/.github
+/System/Volumes/Data/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/nano/node_modules/.bin
+/System/Volumes/Data/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/nano/node_modules/follow/node_modules/request/node_modules/.bin
+/System/Volumes/Data/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/nano/node_modules/request/node_modules/.bin
+/System/Volumes/Data/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/multer/node_modules/.bin
+/System/Volumes/Data/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/handlebars/node_modules/.bin
+/System/Volumes/Data/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/serve-static/node_modules/send/node_modules/.bin
+/System/Volumes/Data/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/request/node_modules/.bin
+/System/Volumes/Data/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/blob/.idea
+/System/Volumes/Data/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/nodemailer/node_modules/.bin
+/System/Volumes/Data/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/Project Templates/iOS/Application/Swift Playgrounds App.xctemplate/___FILEBASENAME___.swiftpm/.swiftpm
+/System/Volumes/Data/Applications/Adobe Photoshop 2021/Adobe Photoshop 2021.app/Contents/Required/typesupport/.f
+/System/Volumes/Data/Applications/Adobe Photoshop 2021/Adobe Photoshop 2021.app/Contents/Required/Generator-builtin/node_modules/.bin
+/System/Volumes/Data/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/js/node_modules/.bin
+/System/Volumes/Data/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/js/node_modules/ref-struct-di/.nyc_output
+/System/Volumes/Data/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/js/node_modules/mime/.github
+/System/Volumes/Data/Applications/Blender.app/Contents/Resources/3.0/python/lib/python3.9/site-packages/numpy/.dylibs
+/System/Volumes/Data/Applications/Blender.app/Contents/Resources/3.0/scripts/addons/.github
+/System/Volumes/Data/Applications/Burp Suite Community Edition.app/Contents/Resources/app/.install4j
+/System/Volumes/Data/Applications/Burp Suite Community Edition.app/Contents/Resources/app/.install4j/icons/.install4j
+/System/Volumes/Data/Applications/IntelliJ IDEA CE.app/Contents/plugins/textmate/lib/bundles/python/.vscode
+/System/Volumes/Data/Applications/IntelliJ IDEA CE.app/Contents/plugins/textmate/lib/bundles/css/.vscode
+/System/Volumes/Data/Applications/IntelliJ IDEA CE.app/Contents/plugins/textmate/lib/bundles/php/.vscode
+/System/Volumes/Data/Applications/Android Studio.app/Contents/plugins/textmate/lib/bundles/python/.vscode
+/System/Volumes/Data/Applications/Android Studio.app/Contents/plugins/textmate/lib/bundles/css/.vscode
+/System/Volumes/Data/Applications/Android Studio.app/Contents/plugins/textmate/lib/bundles/php/.vscode
+/System/Volumes/Data/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/typeshed/.github
+/System/Volumes/Data/Applications/PyCharm CE.app/Contents/plugins/textmate/lib/bundles/python/.vscode
+/System/Volumes/Data/Applications/PyCharm CE.app/Contents/plugins/textmate/lib/bundles/css/.vscode
+/System/Volumes/Data/Applications/PyCharm CE.app/Contents/plugins/textmate/lib/bundles/php/.vscode
+/System/Volumes/Data/.PreviousSystemInformation
+/System/Volumes/Data/.TemporaryItems
+/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.CloudPhotosConfiguration/.LINKS
+/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.photolibraryd/.LINKS
+/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/.LINKS
+/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.intelligenceplatform.knowledgeconstructiond/.LINKS
+/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.photoanalysisd/.LINKS
+/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.mail/.LINKS
+/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.dmd/.LINKS
+/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.remindd/.LINKS
+/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/StatusKitAgent/.LINKS
+/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/AppTranslocation/834FF703-AEB2-459E-ABA7-07883B286B0F/d/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/.vscode
+/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.avatarsd/.LINKS
+/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.routined/.LINKS
+/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/.AddressBookLocks
+/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/homed/.LINKS
+/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.financed/.LINKS
+/private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/com.apple.mediaanalysisd/.LINKS
+/.vol
+/Users/aishworyann/.eclipse
+/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/org.eclipse.core.runtime/.manager
+/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/144/0/.cp
+/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/154/0/.cp
+/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/.manager
+/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/113/0/.cp
+/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/140/0/.cp
+/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/org.eclipse.equinox.app/.manager
+/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/.metadata
+/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/.metadata/.plugins
+/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/configuration/.settings
+/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/.data
+/Users/aishworyann/.eclipse/1738435388_macosx_cocoa_x86_64/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/.data/.settings
+/Users/aishworyann/.config
+/Users/aishworyann/.config/.mono
+/Users/aishworyann/.config/.keentools
+/Users/aishworyann/Music/Music/Media.localized/.localized
+/Users/aishworyann/Music/Music/Media.localized/Automatically Add to Music.localized/.localized
+/Users/aishworyann/Developer/flutter/bin/cache/flutter_web_sdk/.cipdpkg
+/Users/aishworyann/Developer/flutter/.pub-cache
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/ffi-1.1.2/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/shelf_web_socket-1.0.1/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/shelf-1.1.4/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/shelf_packages_handler-3.0.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/stream_transform-2.0.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/equatable-2.0.3/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/source_map_stack_trace-2.1.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/web_socket_channel-2.1.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/fixnum-1.0.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.1/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/yaml-3.1.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/sync_http-0.3.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/usage-4.0.2/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/pool-1.5.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_fonts-2.1.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/source_maps-0.10.10/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/browser_launcher-1.0.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/browser_launcher-1.0.0/.idea
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/lints-1.0.1/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/json_rpc_2-3.0.1/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.1/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/.cache
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/clock-1.1.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/completion-1.0.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/webdriver-3.0.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/http_multi_server-3.0.1/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/html-0.15.0/.github
+/Users/aishworyann/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.0/.github
+/Users/aishworyann/Developer/flutter/packages/flutter_tools/ide_templates/intellij/.idea
+/Users/aishworyann/Developer/flutter/packages/flutter_tools/templates/app_shared/.idea
+/Users/aishworyann/Developer/flutter/packages/flutter_tools/templates/module/common/.idea
+/Users/aishworyann/Developer/flutter/packages/flutter_tools/templates/plugin/.idea
+/Users/aishworyann/Developer/flutter/packages/flutter_tools/templates/package/.idea
+/Users/aishworyann/Developer/flutter/packages/flutter_tools/.dart_tool
+/Users/aishworyann/Developer/flutter/.github
+/Users/aishworyann/Developer/flutter/dev/integration_tests/android_host_app/.gradle
+/Users/aishworyann/Developer/flutter/dev/integration_tests/module_host_with_custom_build/.gradle
+/Users/aishworyann/Developer/flutter/.git
+/Users/aishworyann/Developer/flutter/.idea
+/Users/aishworyann/.designer
+/Users/aishworyann/iCloud Drive (Archive) - 1/.Trash
+/Users/aishworyann/.dart
+/Users/aishworyann/.thumbnails
+/Users/aishworyann/.streamlit
+/Users/aishworyann/.local
+/Users/aishworyann/.dartServer
+/Users/aishworyann/.dartServer/.analysis-driver
+/Users/aishworyann/.dartServer/.instrumentation
+/Users/aishworyann/.p2
+/Users/aishworyann/.p2/org.eclipse.equinox.p2.engine/profileRegistry/_Users_aishworyann_eclipse_java-2021-06_Eclipse.app_Contents_Eclipse.profile/.data
+/Users/aishworyann/.p2/org.eclipse.equinox.p2.engine/.settings
+/Users/aishworyann/.p2/pool/.eclipseextension
+/Users/aishworyann/.ipython
+/Users/aishworyann/Desktop/Personal/PROJECTS/People-Detector/.git
+/Users/aishworyann/Desktop/Personal/PROJECTS/DDoS attack prev. using ML/.ipynb_checkpoints
+/Users/aishworyann/Desktop/Personal/PROJECTS/DDoS attack prev. using ML/.git
+/Users/aishworyann/Desktop/Personal/PROJECTS/DDoS attack prev. using ML/.idea
+/Users/aishworyann/Desktop/Personal/PROJECTS/Stock Project/.ipynb_checkpoints
+/Users/aishworyann/Desktop/Personal/PROJECTS/Stock Project/venv/lib/python3.9/site-packages/aiohttp/.hash
+/Users/aishworyann/Desktop/Personal/PROJECTS/Stock Project/venv/lib/python3.9/site-packages/numpy/.dylibs
+/Users/aishworyann/Desktop/Personal/PROJECTS/Stock Project/venv/lib/python3.9/site-packages/PIL/.dylibs
+/Users/aishworyann/Desktop/Personal/PROJECTS/Stock Project/venv/lib/python3.9/site-packages/httpstan/.dylibs
+/Users/aishworyann/Desktop/Personal/PROJECTS/Stock Project/venv/lib/python3.9/site-packages/zmq/.dylibs
+/Users/aishworyann/Desktop/Personal/PROJECTS/Stock Project/.git
+/Users/aishworyann/Desktop/Personal/PROJECTS/Stock Project/.idea
+/Users/aishworyann/Desktop/Personal/PROJECTS/Human/yolov5/.github
+/Users/aishworyann/Desktop/Personal/PROJECTS/Human/yolov5/.git
+/Users/aishworyann/Desktop/Personal/PROJECTS/Human/Human_detection/.ipynb_checkpoints
+/Users/aishworyann/Desktop/Personal/PROJECTS/Human/Human_detection/venv/lib/python3.9/site-packages/cv2/.dylibs
+/Users/aishworyann/Desktop/Personal/PROJECTS/Human/Human_detection/venv/lib/python3.9/site-packages/numpy/.dylibs
+/Users/aishworyann/Desktop/Personal/PROJECTS/Human/Human_detection/venv/lib/python3.9/site-packages/PIL/.dylibs
+/Users/aishworyann/Desktop/Personal/PROJECTS/Human/Human_detection/venv/lib/python3.9/site-packages/h5py/.dylibs
+/Users/aishworyann/Desktop/Personal/PROJECTS/Human/Human_detection/.git
+/Users/aishworyann/Desktop/Personal/PROJECTS/Human/Human_detection/.idea
+/Users/aishworyann/Desktop/Personal/Emotion_Detection_CNN-main/.ipynb_checkpoints
+/Users/aishworyann/Desktop/DataStructures-Algorithms-master/.git
+/Users/aishworyann/Desktop/i/.ipynb_checkpoints
+/Users/aishworyann/Desktop/i/zigzag_suffling/venv/lib/python3.9/site-packages/cv2/.dylibs
+/Users/aishworyann/Desktop/i/zigzag_suffling/venv/lib/python3.9/site-packages/numpy/.dylibs
+/Users/aishworyann/Desktop/i/zigzag_suffling/.idea
+/Users/aishworyann/Desktop/USB_AUDIT_TOOLS/.git
+/Users/aishworyann/Library/Application Support/com.apple.voicememos/Recordings/.Recordings_SUPPORT
+/Users/aishworyann/Library/Application Support/com.apple.voicememos/Recordings/.CloudRecordings_SUPPORT
+/Users/aishworyann/Library/Application Support/discord/0.0.272/modules/discord_utils/node_modules/.bin
+/Users/aishworyann/Library/Application Support/discord/0.0.272/modules/discord_utils/node_modules/superagent/node_modules/.bin
+/Users/aishworyann/Library/Application Support/discord/0.0.272/modules/discord_utils/node_modules/cross-spawn/node_modules/.bin
+/Users/aishworyann/Library/Application Support/discord/0.0.272/modules/discord_voice/node_modules/.bin
+/Users/aishworyann/Library/Application Support/discord/0.0.272/modules/discord_voice/node_modules/cross-spawn/node_modules/.bin
+/Users/aishworyann/Library/Application Support/discord/0.0.272/modules/discord_spellcheck/node_modules/.bin
+/Users/aishworyann/Library/Application Support/discord/0.0.272/modules/discord_spellcheck/node_modules/cld/node_modules/.bin
+/Users/aishworyann/Library/Application Support/Animoji/CoreDataBackend/.avatars_SUPPORT
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/.metadata
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/.metadata/.plugins
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.core.runtime/.settings
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.core.resources/.history
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.core.resources/.root
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.core.resources/.safetable
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.core.resources/.projects
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/jdt.ls-java-project/.settings
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/jdt_ws/java_69337515/.settings
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/.metadata
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/.metadata/.plugins
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.core.runtime/.settings
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.core.resources/.history
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.core.resources/.root
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.core.resources/.safetable
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.core.resources/.projects
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/jdt.ls-java-project/.settings
+/Users/aishworyann/Library/Application Support/Code/User/workspaceStorage/b8a047276bc797268abd9b8547cc9d0a/redhat.java/ss_ws/java_69337515/.settings
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_ss_mac/org.eclipse.core.runtime/.manager
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_ss_mac/org.eclipse.osgi/32/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_ss_mac/org.eclipse.osgi/35/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_ss_mac/org.eclipse.osgi/.manager
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_ss_mac/org.eclipse.equinox.app/.manager
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.core.runtime/.manager
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.osgi/92/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.osgi/50/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.osgi/60/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.osgi/45/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.osgi/74/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.osgi/75/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.osgi/.manager
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.osgi/76/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.80.0/config_mac/org.eclipse.equinox.app/.manager
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_ss_mac/org.eclipse.core.runtime/.manager
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_ss_mac/org.eclipse.osgi/32/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_ss_mac/org.eclipse.osgi/35/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_ss_mac/org.eclipse.osgi/.manager
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_ss_mac/org.eclipse.equinox.app/.manager
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.core.runtime/.manager
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.osgi/59/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.osgi/92/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.osgi/73/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.osgi/74/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.osgi/75/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.osgi/44/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.osgi/.manager
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.osgi/49/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.81.0/config_mac/org.eclipse.equinox.app/.manager
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_ss_mac/org.eclipse.core.runtime/.manager
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_ss_mac/org.eclipse.osgi/32/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_ss_mac/org.eclipse.osgi/35/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_ss_mac/org.eclipse.osgi/.manager
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_ss_mac/org.eclipse.equinox.app/.manager
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.core.runtime/.manager
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.osgi/59/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.osgi/73/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.osgi/74/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.osgi/75/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.osgi/44/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.osgi/91/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.osgi/.manager
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.osgi/49/0/.cp
+/Users/aishworyann/Library/Application Support/Code/User/globalStorage/redhat.java/0.82.0/config_mac/org.eclipse.equinox.app/.manager
+/Users/aishworyann/Library/Application Support/JetBrains/IdeaIC2021.2/light-edit/.idea
+/Users/aishworyann/Library/Application Support/JetBrains/PyCharmCE2021.3/light-edit/.idea
+/Users/aishworyann/Library/Application Support/JetBrains/PyCharmCE2021.3/consoles/.history
+/Users/aishworyann/Library/Application Support/Adobe/CoreSync/plugins/livetype/.u
+/Users/aishworyann/Library/Application Support/Adobe/CoreSync/plugins/livetype/.r
+/Users/aishworyann/Library/Application Support/Adobe/CoreSync/plugins/livetype/.t
+/Users/aishworyann/Library/Application Support/Adobe/CoreSync/plugins/livetype/.c
+/Users/aishworyann/Library/Application Support/Adobe/CoreSync/plugins/livetype/.x
+/Users/aishworyann/Library/Application Support/Adobe/CoreSync/plugins/livetype/.e
+/Users/aishworyann/Library/Application Support/Adobe/CoreSync/plugins/livetype/.w
+/Users/aishworyann/Library/Application Support/Adobe/.User Owned Fonts
+/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/blenderkit_updater/source/dependencies/Linux/aiohttp/.hash
+/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/blenderkit_updater/source/dependencies/Darwin/aiohttp/.hash
+/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/blenderkit_updater/source/dependencies/Windows/aiohttp/.hash
+/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/blenderkit_updater/backup/blenderkit_updater/source/dependencies/Linux/aiohttp/.hash
+/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/blenderkit_updater/backup/blenderkit_updater/source/dependencies/Darwin/aiohttp/.hash
+/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/blenderkit_updater/backup/blenderkit_updater/source/dependencies/Windows/aiohttp/.hash
+/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/blenderkit_updater/backup/dependencies/Linux/aiohttp/.hash
+/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/blenderkit_updater/backup/dependencies/Darwin/aiohttp/.hash
+/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/blenderkit_updater/backup/dependencies/Windows/aiohttp/.hash
+/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/dependencies/Linux/aiohttp/.hash
+/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/dependencies/Darwin/aiohttp/.hash
+/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/blenderkit/dependencies/Windows/aiohttp/.hash
+/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/__MACOSX/blenderkit/dependencies/Linux/aiohttp/.hash
+/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/__MACOSX/blenderkit/dependencies/Darwin/aiohttp/.hash
+/Users/aishworyann/Library/Application Support/Blender/3.0/scripts/addons/__MACOSX/blenderkit/dependencies/Windows/aiohttp/.hash
+/Users/aishworyann/Library/Application Scripts/.SiriTodayViewExtension
+/Users/aishworyann/Library/Python/3.9/lib/python/site-packages/zmq/.dylibs
+/Users/aishworyann/Library/Android/sdk/tools/lib/monitor-x86_64/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/.data
+/Users/aishworyann/Library/Android/sdk/tools/lib/monitor-x86_64/p2/org.eclipse.equinox.p2.engine/.settings
+/Users/aishworyann/Library/Android/sdk/.downloadIntermediates
+/Users/aishworyann/Library/Android/sdk/.temp
+/Users/aishworyann/Library/Mobile Documents/com~apple~CloudDocs/.Trash
+/Users/aishworyann/Library/Finance/.finance_cloud_SUPPORT
+/Users/aishworyann/Library/Finance/.finance_local_SUPPORT
+/Users/aishworyann/Library/Group Containers/.SiriTodayViewExtension
+/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Proofing Tools.localized/.localized
+/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Startup.localized/.localized
+/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Document Elements.localized/.localized
+/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Templates.localized/.localized
+/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/.localized
+/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Style Sets.localized/.localized
+/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Chart Templates.localized/.localized
+/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Citations.localized/.localized
+/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Themes.localized/.localized
+/Users/aishworyann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Add-Ins.localized/.localized
+/Users/aishworyann/Library/Dictionaries/CoreDataUbiquitySupport/aishworyann~A728795A-3E20-555C-8AA2-8FBFAA51190B/UserDictionary/04F1CF29-F176-4D5A-8B92-ED1DB4B70C62/container/aishworyann~A728795A-3E20-555C-8AA2-8FBFAA51190B/.stage.nosync
+/Users/aishworyann/Library/Dictionaries/CoreDataUbiquitySupport/aishworyann~A728795A-3E20-555C-8AA2-8FBFAA51190B/UserDictionary/A15A4BA5-3814-468F-84DF-706A37183969/container/aishworyann~A728795A-3E20-555C-8AA2-8FBFAA51190B/.stage.nosync
+/Users/aishworyann/Library/Containers/com.apple.iWork.Numbers/Data/CloudKit/2d91488eaa6f4a1183020e4753ed6427cc8ed13d/MMCS/.cs
+/Users/aishworyann/Library/Containers/com.apple.mediastream.mstreamd/Data/Library/MediaStream/albumshare/20788238457+12995663331668476497/mmcs-pub/.cs
+/Users/aishworyann/Library/Containers/com.apple.iWork.Pages/Data/CloudKit/e2d322fadf09a2c27bc1c95fe2737e09eb9d4213/MMCS/.cs
+/Users/aishworyann/Library/Containers/com.macosgame.iwallpaper/Data/CloudKit/80f32356888917a98c5230a24d48ad58b9482eba/MMCS/.cs
+/Users/aishworyann/Library/Containers/com.apple.stocks.widget/Data/CloudKit/9ca101754d46d930fbac9a0fa57c9e7c48c7a3ec/MMCS/.cs
+/Users/aishworyann/Library/Caches/Google/AndroidStudio2020.3/index/stubs/.perFileVersion
+/Users/aishworyann/Library/Caches/Google/AndroidStudio2020.3/index/stubs/.versions
+/Users/aishworyann/Library/Caches/Google/AndroidStudio2020.3/index/frameworkdetectionindex/.perFileVersion
+/Users/aishworyann/Library/Caches/Google/AndroidStudio2020.3/index/todoindex/.perFileVersion
+/Users/aishworyann/Library/Caches/Google/AndroidStudio2020.3/index/idindex/.perFileVersion
+/Users/aishworyann/Library/Caches/Google/AndroidStudio2020.3/index/fileincludes/.perFileVersion
+/Users/aishworyann/Library/Caches/Google/AndroidStudio2020.3/index/.persistent
+/Users/aishworyann/Library/Caches/Google/AndroidStudio2020.3/compiler/chatapp.apk.2e846264/.generated
+/Users/aishworyann/Library/Caches/Google/AndroidStudio2020.3/compiler/messenger-master.4ca11cfd/.generated
+/Users/aishworyann/Library/Caches/Yarn/v6/.tmp
+/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/index/stubs/.perFileVersion
+/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/index/stubs/.versions
+/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/index/frameworkdetectionindex/.perFileVersion
+/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/index/todoindex/.perFileVersion
+/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/index/idindex/.perFileVersion
+/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/index/fileincludes/.perFileVersion
+/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/index/.persistent
+/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/compiler/mst.ad9811f0/.generated
+/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/compiler/saanjh.5cc7dbd7/.generated
+/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/compiler/mst.ad9795d0/.generated
+/Users/aishworyann/Library/Caches/JetBrains/IdeaIC2021.2/compiler/secondser.9064c4e/.generated
+/Users/aishworyann/Library/Caches/JetBrains/PyCharmCE2021.3/index/stubs/.perFileVersion
+/Users/aishworyann/Library/Caches/JetBrains/PyCharmCE2021.3/index/stubs/.versions
+/Users/aishworyann/Library/Caches/JetBrains/PyCharmCE2021.3/index/frameworkdetectionindex/.perFileVersion
+/Users/aishworyann/Library/Caches/JetBrains/PyCharmCE2021.3/index/todoindex/.perFileVersion
+/Users/aishworyann/Library/Caches/JetBrains/PyCharmCE2021.3/index/idindex/.perFileVersion
+/Users/aishworyann/Library/Caches/JetBrains/PyCharmCE2021.3/index/fileincludes/.perFileVersion
+/Users/aishworyann/Library/Caches/JetBrains/PyCharmCE2021.3/index/.persistent
+/Users/aishworyann/Library/Caches/Adobe/typequest/.2
+/Users/aishworyann/Library/Caches/Adobe/typequest/.2/.a
+/Users/aishworyann/Library/Caches/Adobe/typequest/.2/.m
+/Users/aishworyann/Library/Caches/com.apple.python/Users/aishworyann/.vscode
+/Users/aishworyann/.matplotlib
+/Users/aishworyann/iCloud Drive (Archive)/.Trash
+/Users/aishworyann/.zenmap
+/Users/aishworyann/.android
+/Users/aishworyann/.pgadmin
+/Users/aishworyann/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/aiohttp/.hash
+/Users/aishworyann/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/numpy/.dylibs
+/Users/aishworyann/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/PIL/.dylibs
+/Users/aishworyann/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/sklearn/.dylibs
+/Users/aishworyann/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/httpstan/.dylibs
+/Users/aishworyann/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/scipy/.dylibs
+/Users/aishworyann/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/zmq/.dylibs
+/Users/aishworyann/PycharmProjects/pythonProject/.idea
+/Users/aishworyann/PycharmProjects/pythonProject1/.idea
+/Users/aishworyann/PycharmProjects/pythonProject6/.idea
+/Users/aishworyann/PycharmProjects/Saanjh/.idea
+/Users/aishworyann/PycharmProjects/KS/.idea
+/Users/aishworyann/PycharmProjects/pythonProject5/.idea
+/Users/aishworyann/PycharmProjects/pythonProject2/venv/lib/python3.9/site-packages/numpy/.dylibs
+/Users/aishworyann/PycharmProjects/pythonProject2/venv/lib/python3.9/site-packages/PIL/.dylibs
+/Users/aishworyann/PycharmProjects/pythonProject2/venv/lib/python3.9/site-packages/scipy/.dylibs
+/Users/aishworyann/PycharmProjects/pythonProject2/.idea
+/Users/aishworyann/PycharmProjects/Human_detection/.ipynb_checkpoints
+/Users/aishworyann/PycharmProjects/Human_detection/venv/lib/python3.9/site-packages/cv2/.dylibs
+/Users/aishworyann/PycharmProjects/Human_detection/venv/lib/python3.9/site-packages/numpy/.dylibs
+/Users/aishworyann/PycharmProjects/Human_detection/venv/lib/python3.9/site-packages/PIL/.dylibs
+/Users/aishworyann/PycharmProjects/Human_detection/venv/lib/python3.9/site-packages/h5py/.dylibs
+/Users/aishworyann/PycharmProjects/Human_detection/.git
+/Users/aishworyann/PycharmProjects/Human_detection/.idea
+/Users/aishworyann/.cvlib
+/Users/aishworyann/Movies/TV/Media.localized/.localized
+/Users/aishworyann/Movies/TV/Media.localized/Automatically Add To TV.localized/.localized
+/Users/aishworyann/Movies/TV/Previous Libraries.localized/.localized
+/Users/aishworyann/Applications/Chrome Apps.localized/.localized
+/Users/aishworyann/.gradle
+/Users/aishworyann/.gradle/.tmp
+/Users/aishworyann/.Trash
+/Users/aishworyann/IdeaProjects/MST/.idea
+/Users/aishworyann/IdeaProjects/JAVA LAB/.idea
+/Users/aishworyann/IdeaProjects/saanjh/.idea
+/Users/aishworyann/IdeaProjects/try/.idea
+/Users/aishworyann/IdeaProjects/test pract/.idea
+/Users/aishworyann/IdeaProjects/practice/.idea
+/Users/aishworyann/IdeaProjects/secondser/.idea
+/Users/aishworyann/.sqldeveloper
+/Users/aishworyann/.sqldeveloper/system21.2.1.204.1703/o.sqldeveloper/projects/.data
+/Users/aishworyann/.sqldeveloper/system21.2.1.204.1703/system_cache/var/cache/netigso/org.eclipse.osgi/.manager
+/Users/aishworyann/.ipynb_checkpoints
+/Users/aishworyann/powerlevel10k/gitstatus/.vscode
+/Users/aishworyann/powerlevel10k/.git
+/Users/aishworyann/.jupyter
+/Users/aishworyann/.BurpSuite
+/Users/aishworyann/.keras
+/Users/aishworyann/.anydesk
+/Users/aishworyann/.mono
+/Users/aishworyann/.vscode
+/Users/aishworyann/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/.devcontainer+raw+nopython
+/Users/aishworyann/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/.devcontainer+raw+nopython/.devcontainer
+/Users/aishworyann/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/pythonFiles/.vscode
+/Users/aishworyann/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/.devcontainer+remote+nonconda
+/Users/aishworyann/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/.devcontainer+remote+nonconda/.devcontainer
+/Users/aishworyann/.vscode/extensions/twxs.cmake-0.0.17/out/.vscode-test
+/Users/aishworyann/.vscode/extensions/twxs.cmake-0.0.17/node_modules/peg-cmake/.vscode
+/Users/aishworyann/.vscode/extensions/formulahendry.code-runner-0.12.0/.github
+/Users/aishworyann/.vscode/extensions/vscjava.vscode-java-dependency-0.21.2/templates/invisible-project/.vscode
+/Users/aishworyann/.vscode/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8/.vscode
+/Users/aishworyann/.vscode/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.6/.github
+/Users/aishworyann/.vscode/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.6/.vscode
+/Users/aishworyann/.vscode/extensions/vscjava.vscode-maven-0.40.4/resources/maven-wrapper/.mvn
+/Users/aishworyann/.vscode/extensions/ms-python.vscode-pylance-2023.2.40/dist/.cache
+/Users/aishworyann/.vscode/extensions/vscjava.vscode-java-dependency-0.21.1/templates/invisible-project/.vscode
+/Users/aishworyann/.vscode/extensions/ms-python.python-2022.20.2/pythonFiles/.vscode
+/Users/aishworyann/.vscode/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5/.vscode
+/Users/aishworyann/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30/node_modules/ms-vsintellicode-typescript/node_modules/balanced-match/.github
+/Users/aishworyann/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30/node_modules/ms-vsintellicode-typescript/node_modules/path-browserify/.github
+/Users/aishworyann/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30/node_modules/ms-vsintellicode-typescript/node_modules/stream-browserify/.github
+/Users/aishworyann/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30/node_modules/ms-vsintellicode-typescript/node_modules/fastq/.github
+/Users/aishworyann/.swiftpm
+/Users/aishworyann/AndroidStudioProjects/firstapp/.gradle
+/Users/aishworyann/AndroidStudioProjects/firstapp/.idea
+/Users/aishworyann/Downloads/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/.vscode
+/Users/aishworyann/Downloads/blenderkit/dependencies/Linux/aiohttp/.hash
+/Users/aishworyann/Downloads/blenderkit/dependencies/Darwin/aiohttp/.hash
+/Users/aishworyann/Downloads/blenderkit/dependencies/Windows/aiohttp/.hash
+/Users/aishworyann/Downloads/.ipynb_checkpoints
+/Users/aishworyann/Downloads/DDoS-prevention-using-ML-main/.ipynb_checkpoints
+/Users/aishworyann/.cache
+/Users/aishworyann/.zsh_sessions
+/Users/aishworyann/blenderkit_data/daemon/dependencies/3-5-1/3-9/installed/aiohttp/.hash
+/Users/aishworyann/blenderkit_data/daemon/dependencies/3-3-2/preinstalled/aiohttp/.hash
+/Users/aishworyann/blenderkit_data/daemon/dependencies/3-4-0/preinstalled/aiohttp/.hash
+/Users/aishworyann/blenderkit_data/daemon/dependencies/3-3-1/preinstalled/aiohttp/.hash
+/Users/Shared/Epic Games/UE_4.27/Engine/Plugins/VirtualProduction/RemoteControlWebInterface/WebApp/.vscode
+/Users/Shared/Epic Games/UE_4.27/Engine/Binaries/ThirdParty/Mono/Mac/lib/mono/xbuild-frameworks/.NETFramework
+/Users/Shared/Epic Games/UE_4.27/Engine/Build/Android/Java/gradle/.idea
+/Users/Shared/Epic Games/UE_4.27/.egstore
+/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/express/node_modules/send/node_modules/.bin
+/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/redis/.github
+/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/nano/node_modules/.bin
+/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/nano/node_modules/follow/node_modules/request/node_modules/.bin
+/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/nano/node_modules/request/node_modules/.bin
+/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/multer/node_modules/.bin
+/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/handlebars/node_modules/.bin
+/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/serve-static/node_modules/send/node_modules/.bin
+/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/request/node_modules/.bin
+/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/blob/.idea
+/Applications/Xcode.app/Contents/Developer/usr/share/xcs/xcsd/node_modules/nodemailer/node_modules/.bin
+/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/Project Templates/iOS/Application/Swift Playgrounds App.xctemplate/___FILEBASENAME___.swiftpm/.swiftpm
+/Applications/Adobe Photoshop 2021/Adobe Photoshop 2021.app/Contents/Required/typesupport/.f
+/Applications/Adobe Photoshop 2021/Adobe Photoshop 2021.app/Contents/Required/Generator-builtin/node_modules/.bin
+/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/js/node_modules/.bin
+/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/js/node_modules/ref-struct-di/.nyc_output
+/Applications/Utilities/Adobe Creative Cloud Experience/CCXProcess/CCXProcess.app/Contents/js/node_modules/mime/.github
+/Applications/Blender.app/Contents/Resources/3.0/python/lib/python3.9/site-packages/numpy/.dylibs
+/Applications/Blender.app/Contents/Resources/3.0/scripts/addons/.github
+/Applications/Burp Suite Community Edition.app/Contents/Resources/app/.install4j
+/Applications/Burp Suite Community Edition.app/Contents/Resources/app/.install4j/icons/.install4j
+/Applications/IntelliJ IDEA CE.app/Contents/plugins/textmate/lib/bundles/python/.vscode
+/Applications/IntelliJ IDEA CE.app/Contents/plugins/textmate/lib/bundles/css/.vscode
+/Applications/IntelliJ IDEA CE.app/Contents/plugins/textmate/lib/bundles/php/.vscode
+/Applications/Android Studio.app/Contents/plugins/textmate/lib/bundles/python/.vscode
+/Applications/Android Studio.app/Contents/plugins/textmate/lib/bundles/css/.vscode
+/Applications/Android Studio.app/Contents/plugins/textmate/lib/bundles/php/.vscode
+/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/typeshed/.github
+/Applications/PyCharm CE.app/Contents/plugins/textmate/lib/bundles/python/.vscode
+/Applications/PyCharm CE.app/Contents/plugins/textmate/lib/bundles/css/.vscode
+/Applications/PyCharm CE.app/Contents/plugins/textmate/lib/bundles/php/.vscode

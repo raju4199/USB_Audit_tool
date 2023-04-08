@@ -1,0 +1,4 @@
+find hidden executables, more focused hidden file search
+EXAMPLE: /var/tmp/.ICE-unix/.db: ELF 64-bit ... stripped
+find / -name ".*" -exec file -p '{}' \; | grep ELF
+**********

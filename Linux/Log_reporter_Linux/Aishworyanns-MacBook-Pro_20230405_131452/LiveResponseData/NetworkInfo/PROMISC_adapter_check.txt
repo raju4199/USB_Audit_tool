@@ -1,0 +1,3 @@
+PROMISC adapters
+ip link | grep PROMISC
+**********

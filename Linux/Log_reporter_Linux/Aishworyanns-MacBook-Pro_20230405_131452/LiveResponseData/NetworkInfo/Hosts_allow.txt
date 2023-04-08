@@ -1,0 +1,3 @@
+hosts allowed
+cat /etc/hosts.allow
+**********

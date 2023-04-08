@@ -1,0 +1,6 @@
+OS Type: nix
+Computername: Aishworyanns-MacBook-Pro
+Time stamp: 20230405_131452
+Live Response Collection version: LLR_v4.5
+Live Response Collection script run: Log_report_linux.sh
+

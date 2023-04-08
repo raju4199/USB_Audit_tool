@@ -1,0 +1,24 @@
+System environment details
+prinenv
+**********
+TERM_PROGRAM=Apple_Terminal
+_P9K_TTY=/dev/ttys000
+SHELL=/bin/zsh
+TERM=xterm-256color
+TMPDIR=/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/
+TERM_PROGRAM_VERSION=447
+TERM_SESSION_ID=B82FFCE5-BFF1-4197-9793-98F711AF6520
+USER=aishworyann
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.BLGMRqCm2t/Listeners
+PATH=/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/aishworyann/Developer/flutter/bin
+__CFBundleIdentifier=com.apple.Terminal
+PWD=/Users/aishworyann/Desktop/USB_AUDIT_TOOLS/Linux:macOS/Log_reporter_Linux
+P9K_SSH=0
+P9K_TTY=old
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+SHLVL=2
+HOME=/Users/aishworyann
+LOGNAME=aishworyann
+LC_CTYPE=UTF-8
+_=/usr/bin/printenv

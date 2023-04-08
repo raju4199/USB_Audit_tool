@@ -1,0 +1,3 @@
+uptime
+**********
+14:32  up 6 days, 18:26, 2 users, load averages: 2.21 2.32 3.06

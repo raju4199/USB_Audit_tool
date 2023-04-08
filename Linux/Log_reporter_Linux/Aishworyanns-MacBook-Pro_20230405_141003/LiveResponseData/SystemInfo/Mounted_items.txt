@@ -1,0 +1,12 @@
+Mounted items
+mount
+**********
+/dev/disk1s1s1 on / (apfs, sealed, local, read-only, journaled)
+devfs on /dev (devfs, local, nobrowse)
+/dev/disk1s3 on /System/Volumes/Preboot (apfs, local, journaled, nobrowse)
+/dev/disk1s5 on /System/Volumes/VM (apfs, local, noexec, journaled, noatime, nobrowse)
+/dev/disk1s6 on /System/Volumes/Update (apfs, local, journaled, nobrowse)
+/dev/disk1s2 on /System/Volumes/Data (apfs, local, journaled, nobrowse)
+map auto_home on /System/Volumes/Data/home (autofs, automounted, nobrowse)
+/Users/aishworyann/Downloads/Visual Studio Code.app on /private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/AppTranslocation/834FF703-AEB2-459E-ABA7-07883B286B0F (nullfs, local, nodev, nosuid, read-only, nobrowse, mounted by aishworyann)
+/Users/aishworyann/Downloads/Sublime Text.app on /private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/AppTranslocation/498304D5-65F9-4763-BDC1-ADB0B5F02900 (nullfs, local, nodev, nosuid, read-only, nobrowse, mounted by aishworyann)

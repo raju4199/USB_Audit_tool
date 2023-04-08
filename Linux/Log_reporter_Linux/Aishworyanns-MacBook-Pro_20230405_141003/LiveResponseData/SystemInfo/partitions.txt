@@ -1,0 +1,3 @@
+Partitions
+cat /proc/partitions
+**********

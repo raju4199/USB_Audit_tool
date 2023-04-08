@@ -1,0 +1,3 @@
+meminfo
+cat /proc/meminfo
+************

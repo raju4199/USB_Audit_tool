@@ -1,0 +1,3 @@
+swap partitions
+cat /proc/swaps
+**********

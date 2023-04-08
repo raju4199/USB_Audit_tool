@@ -1,0 +1,10 @@
+arp table
+arp -an
+**********
+? (192.168.220.1) at cc:4e:24:6e:99:80 on en0 ifscope [ethernet]
+? (192.168.220.36) at 8c:dc:d4:46:d0:6 on en0 ifscope [ethernet]
+? (192.168.220.219) at 3c:a6:f6:20:bc:e4 on en0 ifscope [ethernet]
+? (192.168.222.44) at cc:96:e5:3:b4:12 on en0 ifscope [ethernet]
+? (192.168.223.255) at ff:ff:ff:ff:ff:ff on en0 ifscope [ethernet]
+? (224.0.0.251) at 1:0:5e:0:0:fb on en0 ifscope permanent [ethernet]
+? (239.255.255.250) at 1:0:5e:7f:ff:fa on en0 ifscope permanent [ethernet]

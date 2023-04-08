@@ -1,0 +1,12 @@
+running processes
+ps -T
+**********
+  PID TTY           TIME CMD
+79133 ttys000    0:00.04 login -pf aishworyann /bin/zsh
+79134 ttys000    0:00.39 -zsh
+79140 ttys000    0:00.01 -zsh
+79150 ttys000    0:00.00 -zsh
+79151 ttys000    0:00.00 -zsh
+79153 ttys000    0:00.03 /Users/aishworyann/.cache/gitstatus/gitstatusd-darwin-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 16
+79166 ttys000    0:00.05 sh Log_report_linux.sh
+79220 ttys000    0:00.02 ps -T

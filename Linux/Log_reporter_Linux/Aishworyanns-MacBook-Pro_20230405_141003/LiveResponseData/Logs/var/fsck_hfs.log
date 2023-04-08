@@ -1,0 +1,238 @@
+
+/dev/rdisk2s2: fsck_hfs started at Sun Dec 11 19:21:37 2022
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Sun Dec 11 19:21:38 2022
+
+
+/dev/rdisk2s2: fsck_hfs started at Sun Dec 11 19:21:38 2022
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Sun Dec 11 19:21:38 2022
+
+
+/dev/rdisk2s2: fsck_hfs started at Sat Dec 17 05:59:25 2022
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Sat Dec 17 05:59:25 2022
+
+
+/dev/rdisk2s2: fsck_hfs started at Sat Dec 17 05:59:25 2022
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Sat Dec 17 05:59:25 2022
+
+
+/dev/rdisk2s1: fsck_hfs started at Tue Jan 10 18:56:33 2023
+/dev/rdisk2s1: /dev/rdisk2s1: ** /dev/rdisk2s1 (NO WRITE)
+/dev/rdisk2s1:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s1: fsck_hfs completed at Tue Jan 10 18:56:33 2023
+
+
+/dev/rdisk2s1: fsck_hfs started at Wed Jan 11 22:16:27 2023
+/dev/rdisk2s1: /dev/rdisk2s1: ** /dev/rdisk2s1 (NO WRITE)
+/dev/rdisk2s1:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s1: fsck_hfs completed at Wed Jan 11 22:16:27 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Wed Jan 18 19:36:31 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Wed Jan 18 19:36:31 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Wed Jan 18 19:36:31 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Wed Jan 18 19:36:31 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Thu Jan 26 20:19:28 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Thu Jan 26 20:19:28 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Thu Jan 26 20:19:28 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Thu Jan 26 20:19:28 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Fri Jan 27 02:46:59 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Fri Jan 27 02:46:59 2023
+
+
+/dev/rdisk3s1: fsck_hfs started at Fri Feb  3 15:27:57 2023
+/dev/rdisk3s1: /dev/rdisk3s1: ** /dev/rdisk3s1 (NO WRITE)
+/dev/rdisk3s1:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk3s1: fsck_hfs completed at Fri Feb  3 15:27:57 2023
+
+
+/dev/rdisk2s1: fsck_hfs started at Tue Feb  7 16:48:44 2023
+/dev/rdisk2s1: /dev/rdisk2s1: ** /dev/rdisk2s1 (NO WRITE)
+/dev/rdisk2s1:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s1: fsck_hfs completed at Tue Feb  7 16:48:44 2023
+
+
+/dev/rdisk3s2: fsck_hfs started at Wed Feb  8 05:02:05 2023
+/dev/rdisk3s2: /dev/rdisk3s2: ** /dev/rdisk3s2 (NO WRITE)
+/dev/rdisk3s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk3s2: fsck_hfs completed at Wed Feb  8 05:02:05 2023
+
+
+/dev/rdisk3s2: fsck_hfs started at Wed Feb  8 05:02:05 2023
+/dev/rdisk3s2: /dev/rdisk3s2: ** /dev/rdisk3s2 (NO WRITE)
+/dev/rdisk3s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk3s2: fsck_hfs completed at Wed Feb  8 05:02:05 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Fri Feb 10 01:35:34 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Fri Feb 10 01:35:34 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Fri Feb 10 01:35:34 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Fri Feb 10 01:35:34 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Thu Feb 16 02:40:56 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Thu Feb 16 02:40:56 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Thu Feb 16 02:40:56 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Thu Feb 16 02:40:56 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Fri Feb 24 23:29:06 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Fri Feb 24 23:29:06 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Fri Feb 24 23:29:06 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Fri Feb 24 23:29:06 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Fri Mar  3 02:19:10 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Fri Mar  3 02:19:10 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Fri Mar  3 02:19:10 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Fri Mar  3 02:19:10 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Thu Mar  9 11:47:00 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Thu Mar  9 11:47:00 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Thu Mar  9 11:47:01 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Thu Mar  9 11:47:01 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Fri Mar 24 15:06:59 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Fri Mar 24 15:06:59 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Fri Mar 24 15:06:59 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Fri Mar 24 15:06:59 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Wed Mar 29 20:08:32 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Wed Mar 29 20:08:32 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Wed Mar 29 20:08:32 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Wed Mar 29 20:08:32 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Wed Mar 29 21:17:13 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Wed Mar 29 21:17:13 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Wed Mar 29 21:17:13 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Wed Mar 29 21:17:13 2023
+
+
+/dev/rdisk2s1: fsck_hfs started at Sat Apr  1 21:03:02 2023
+/dev/rdisk2s1: /dev/rdisk2s1: ** /dev/rdisk2s1 (NO WRITE)
+/dev/rdisk2s1:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s1: fsck_hfs completed at Sat Apr  1 21:03:02 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Wed Apr  5 10:48:32 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Wed Apr  5 10:48:32 2023
+
+
+/dev/rdisk2s2: fsck_hfs started at Wed Apr  5 10:48:32 2023
+/dev/rdisk2s2: /dev/rdisk2s2: ** /dev/rdisk2s2 (NO WRITE)
+/dev/rdisk2s2:    Executing fsck_hfs (version hfs-627.40.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s2: fsck_hfs completed at Wed Apr  5 10:48:32 2023
+

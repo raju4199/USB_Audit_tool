@@ -1,0 +1,3 @@
+OS kernel version
+cat /proc/version
+********** /proc/version

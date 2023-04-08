@@ -1,0 +1,3 @@
+hostname
+**********
+Aishworyanns-MacBook-Pro.local

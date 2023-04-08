@@ -1,0 +1,3 @@
+Running services
+service --status-all | grep +
+**********

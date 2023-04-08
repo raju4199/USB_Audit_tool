@@ -1,0 +1,3 @@
+ io ports
+cat /proc/ioports
+**********

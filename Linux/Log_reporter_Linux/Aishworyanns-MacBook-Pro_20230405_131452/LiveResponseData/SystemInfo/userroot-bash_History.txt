@@ -1,0 +1,3 @@
+cat /user_root/.bash_history
+cat /user_root/.bash_history
+**********

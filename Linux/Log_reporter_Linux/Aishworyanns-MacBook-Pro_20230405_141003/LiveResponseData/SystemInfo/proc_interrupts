@@ -1,0 +1,3 @@
+interrupts
+cat /proc/interrupts
+***********

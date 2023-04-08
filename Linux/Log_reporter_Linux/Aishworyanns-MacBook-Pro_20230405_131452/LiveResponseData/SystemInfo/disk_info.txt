@@ -1,0 +1,13 @@
+Disk information
+df -k
+**********
+Filesystem                                          1024-blocks      Used Available Capacity iused     ifree %iused  Mounted on
+/dev/disk1s1s1                                        244810132   8620016  12293736    42%  348618 122937360    0%   /
+devfs                                                       334       334         0   100%    1156         0  100%   /dev
+/dev/disk1s3                                          244810132   2000428  12293736    14%    3729 122937360    0%   /System/Volumes/Preboot
+/dev/disk1s5                                          244810132   5243728  12293736    30%       5 122937360    0%   /System/Volumes/VM
+/dev/disk1s6                                          244810132      4116  12293736     1%      18 122937360    0%   /System/Volumes/Update
+/dev/disk1s2                                          244810132 215423044  12293736    95% 2178565 122937360    2%   /System/Volumes/Data
+map auto_home                                                 0         0         0   100%       0         0  100%   /System/Volumes/Data/home
+/Users/aishworyann/Downloads/Visual Studio Code.app   244810132 214778544  15035620    94% 2170668 150356200    1%   /private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/AppTranslocation/834FF703-AEB2-459E-ABA7-07883B286B0F
+/Users/aishworyann/Downloads/Sublime Text.app         244810132 214791456  16071580    94% 2173760 160715800    1%   /private/var/folders/4k/z3nx_zpx0613j89ycxzfzm3h0000gn/T/AppTranslocation/498304D5-65F9-4763-BDC1-ADB0B5F02900

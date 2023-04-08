@@ -1,0 +1,128 @@
+lsof -P -n -i -V
+**********
+COMMAND     PID        USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+loginwind   171 aishworyann    7u  IPv4 0x13bf5df24027dc6d      0t0  UDP *:*
+ControlCe   478 aishworyann    5u  IPv4 0x13bf5ded73361a75      0t0  TCP *:7000 (LISTEN)
+ControlCe   478 aishworyann    6u  IPv6 0x13bf5ded7116ca0d      0t0  TCP *:7000 (LISTEN)
+ControlCe   478 aishworyann    7u  IPv4 0x13bf5ded7335a595      0t0  TCP *:5000 (LISTEN)
+ControlCe   478 aishworyann    8u  IPv6 0x13bf5ded7116e08d      0t0  TCP *:5000 (LISTEN)
+ControlCe   478 aishworyann   11u  IPv4 0x13bf5df24027593d      0t0  UDP *:*
+rapportd    504 aishworyann    3u  IPv4 0x13bf5ded73336d35      0t0  TCP *:49184 (LISTEN)
+rapportd    504 aishworyann    4u  IPv6 0x13bf5ded7115c90d      0t0  TCP *:49184 (LISTEN)
+rapportd    504 aishworyann    5u  IPv4 0x13bf5df24027993d      0t0  UDP *:*
+rapportd    504 aishworyann    6u  IPv4 0x13bf5df2402762dd      0t0  UDP *:*
+rapportd    504 aishworyann   12u  IPv4 0x13bf5df24026693d      0t0  UDP *:*
+identitys   511 aishworyann   26u  IPv4 0x13bf5df24026a60d      0t0  UDP *:*
+identitys   511 aishworyann   31u  IPv4 0x13bf5df24026cc6d      0t0  UDP *:*
+identitys   511 aishworyann   33u  IPv4 0x13bf5df24026893d      0t0  UDP 127.0.0.1:7777
+sharingd    562 aishworyann    4u  IPv4 0x13bf5df24026af9d      0t0  UDP *:*
+sharingd    562 aishworyann    8u  IPv4 0x13bf5df240267f9d      0t0  UDP *:*
+sharingd    562 aishworyann    9u  IPv4 0x13bf5df240344c6d      0t0  UDP *:*
+sharingd    562 aishworyann   10u  IPv4 0x13bf5df23faaa2dd      0t0  UDP *:*
+sharingd    562 aishworyann   12u  IPv4 0x13bf5df23faad2dd      0t0  UDP *:*
+sharingd    562 aishworyann   13u  IPv4 0x13bf5df23faaa93d      0t0  UDP *:*
+sharingd    562 aishworyann   14u  IPv4 0x13bf5df24024bc6d      0t0  UDP *:*
+WiFiAgent   567 aishworyann    3u  IPv4 0x13bf5df23faad60d      0t0  UDP *:*
+parsecd     568 aishworyann    7u  IPv4 0x13bf5ded7334aa75      0t0  TCP 192.168.220.202:49876->13.127.122.28:443 (ESTABLISHED)
+corespeec   625 aishworyann    3u  IPv6 0x13bf5ded6df1680d      0t0  TCP [fe80:4::aede:48ff:fe00:1122]:49188->[fe80:4::aede:48ff:fe33:4455]:49233 (ESTABLISHED)
+Spotify     667 aishworyann   20u  IPv4 0x13bf5df24035260d      0t0  UDP *:57621
+Spotify     667 aishworyann   26u  IPv4 0x13bf5ded7331f855      0t0  TCP *:64884 (LISTEN)
+Spotify     667 aishworyann   47u  IPv4 0x13bf5ded7333e215      0t0  TCP *:57621 (LISTEN)
+Spotify     667 aishworyann  105u  IPv4 0x13bf5ded7334e215      0t0  TCP 192.168.220.202:49192->104.199.240.237:443 (ESTABLISHED)
+Spotify     667 aishworyann  147u  IPv4 0x13bf5df24036960d      0t0  UDP *:1900
+Spotify     667 aishworyann  150u  IPv4 0x13bf5df24036993d      0t0  UDP *:59912
+Spotify     667 aishworyann  195u  IPv4 0x13bf5df240383c6d      0t0  UDP *:5353
+Spotify     667 aishworyann  204u  IPv6 0x13bf5df2403832dd      0t0  UDP *:5353
+Spotify     667 aishworyann  206u  IPv6 0x13bf5df24038360d      0t0  UDP *:5353
+Spotify     667 aishworyann  207u  IPv6 0x13bf5df24038393d      0t0  UDP *:5353
+Spotify     667 aishworyann  228u  IPv6 0x13bf5df240383f9d      0t0  UDP *:5353
+Spotify     667 aishworyann  235u  IPv4 0x13bf5ded73336215      0t0  TCP 192.168.220.202:64894->35.186.224.47:443 (ESTABLISHED)
+Spotify     667 aishworyann  236u  IPv6 0x13bf5df23faac2dd      0t0  UDP *:5353
+Spotify     667 aishworyann  237u  IPv6 0x13bf5df24026cf9d      0t0  UDP *:5353
+Spotify     667 aishworyann  238u  IPv6 0x13bf5df2401b993d      0t0  UDP *:5353
+Spotify     667 aishworyann  239u  IPv6 0x13bf5df2401bc60d      0t0  UDP *:5353
+Spotify     667 aishworyann  240u  IPv6 0x13bf5df2402592dd      0t0  UDP *:5353
+Spotify     667 aishworyann  241u  IPv6 0x13bf5df240276f9d      0t0  UDP *:5353
+Spotify     667 aishworyann  242u  IPv6 0x13bf5df23faae2dd      0t0  UDP *:5353
+Spotify     667 aishworyann  243u  IPv6 0x13bf5df23faaa60d      0t0  UDP *:5353
+Spotify     667 aishworyann  244u  IPv6 0x13bf5df23faab60d      0t0  UDP *:5353
+Spotify     667 aishworyann  245u  IPv6 0x13bf5df240275c6d      0t0  UDP *:5353
+Spotify     667 aishworyann  246u  IPv6 0x13bf5df240275f9d      0t0  UDP *:5353
+Spotify     667 aishworyann  247u  IPv6 0x13bf5df23faaec6d      0t0  UDP *:5353
+Spotify     667 aishworyann  248u  IPv6 0x13bf5df24026860d      0t0  UDP *:5353
+Spotify     667 aishworyann  249u  IPv6 0x13bf5df24027df9d      0t0  UDP *:5353
+Spotify     667 aishworyann  250u  IPv6 0x13bf5df24026660d      0t0  UDP *:5353
+Spotify     667 aishworyann  251u  IPv6 0x13bf5df240266c6d      0t0  UDP *:5353
+Spotify     667 aishworyann  252u  IPv6 0x13bf5df24026760d      0t0  UDP *:5353
+Spotify     667 aishworyann  253u  IPv6 0x13bf5df2402532dd      0t0  UDP *:5353
+Spotify     667 aishworyann  254u  IPv6 0x13bf5df24025360d      0t0  UDP *:5353
+Spotify     667 aishworyann  255u  IPv6 0x13bf5df240267c6d      0t0  UDP *:5353
+Spotify     667 aishworyann  256u  IPv6 0x13bf5df240266f9d      0t0  UDP *:5353
+Spotify     667 aishworyann  257u  IPv6 0x13bf5df2403522dd      0t0  UDP *:5353
+Spotify     667 aishworyann  258u  IPv6 0x13bf5df240352f9d      0t0  UDP *:5353
+Spotify     667 aishworyann  259u  IPv6 0x13bf5df24035293d      0t0  UDP *:5353
+Spotify     667 aishworyann  260u  IPv6 0x13bf5df2401b72dd      0t0  UDP *:5353
+Spotify     667 aishworyann  261u  IPv6 0x13bf5df2401b7c6d      0t0  UDP *:5353
+itunesclo   695 aishworyann    8u  IPv4 0x13bf5ded73365d35      0t0  TCP 192.168.220.202:49888->23.49.50.38:443 (ESTABLISHED)
+assistant   750 aishworyann   16u  IPv4 0x13bf5df23faaac6d      0t0  UDP *:*
+Spotify     763 aishworyann   24u  IPv4 0x13bf5ded73320375      0t0  TCP 192.168.220.202:49864->35.186.224.25:443 (ESTABLISHED)
+Spotify     763 aishworyann   27u  IPv4 0x13bf5ded73340e95      0t0  TCP 192.168.220.202:49166->35.186.224.39:443 (ESTABLISHED)
+Spotify     763 aishworyann   28u  IPv4 0x13bf5ded7334d6f5      0t0  TCP 192.168.220.202:49685->35.186.224.13:443 (ESTABLISHED)
+Adobe\x20   805 aishworyann    7u  IPv4 0x13bf5ded73320e95      0t0  TCP 127.0.0.1:15292 (LISTEN)
+node        835 aishworyann   29u  IPv4 0x13bf5ded733556f5      0t0  TCP 127.0.0.1:49468 (LISTEN)
+node        835 aishworyann   30u  IPv4 0x13bf5ded73338e95      0t0  TCP 127.0.0.1:49469 (LISTEN)
+node        835 aishworyann   32u  IPv4 0x13bf5ded74175bd5      0t0  TCP 127.0.0.1:45623 (LISTEN)
+node        835 aishworyann   33u  IPv4 0x13bf5ded741766f5      0t0  TCP 127.0.0.1:54957 (LISTEN)
+com.apple  6922 aishworyann   18u  IPv4 0x13bf5ded733256f5      0t0  TCP 192.168.220.202:65105->52.70.125.53:443 (ESTABLISHED)
+com.apple  6922 aishworyann   22u  IPv4 0x13bf5ded74179e95      0t0  TCP 192.168.220.202:64899->104.16.226.10:443 (ESTABLISHED)
+com.apple  6922 aishworyann   30u  IPv4 0x13bf5ded7331e215      0t0  TCP 192.168.220.202:49840->17.248.164.198:443 (CLOSED)
+com.apple  6922 aishworyann   34u  IPv4 0x13bf5ded7331b595      0t0  TCP 192.168.220.202:49861->104.16.227.10:443 (ESTABLISHED)
+com.apple  6922 aishworyann   36u  IPv4 0x13bf5ded7331cbd5      0t0  TCP 192.168.220.202:49818->104.16.227.10:443 (ESTABLISHED)
+com.apple  6922 aishworyann   42u  IPv4 0x13bf5ded7335b0b5      0t0  TCP 192.168.220.202:49853->140.82.112.25:443 (ESTABLISHED)
+com.apple  6922 aishworyann   44u  IPv4 0x13bf5ded733356f5      0t0  TCP 192.168.1.2:63495->198.252.206.25:443 (ESTABLISHED)
+com.apple  6922 aishworyann   46u  IPv4 0x13bf5ded73348e95      0t0  TCP 192.168.220.202:49865->142.250.192.110:443 (ESTABLISHED)
+com.apple  6922 aishworyann   47u  IPv4 0x13bf5ded73328375      0t0  TCP 192.168.1.27:51100->18.233.205.104:443 (ESTABLISHED)
+com.apple  6922 aishworyann   52u  IPv4 0x13bf5ded73366855      0t0  TCP 192.168.220.202:49868->17.248.164.231:443 (CLOSED)
+com.apple  6922 aishworyann   53u  IPv4 0x13bf5ded73367e95      0t0  TCP 192.168.220.202:49869->17.248.164.231:443 (CLOSED)
+com.apple  6922 aishworyann   56u  IPv4 0x13bf5ded7331aa75      0t0  TCP 192.168.220.202:49871->18.164.201.30:443 (ESTABLISHED)
+com.apple  6922 aishworyann   67u  IPv4 0x13bf5ded73346d35      0t0  TCP 192.168.1.2:61755->34.238.104.255:443 (ESTABLISHED)
+com.apple  6922 aishworyann  116u  IPv4 0x13bf5ded7335e855      0t0  TCP 192.168.220.202:65485->198.252.206.25:443 (ESTABLISHED)
+PowerChim  7473 aishworyann    4u  IPv6 0x13bf5ded7116b38d      0t0  TCP [fe80:4::aede:48ff:fe00:1122]:55055->[fe80:4::aede:48ff:fe33:4455]:49190 (ESTABLISHED)
+PowerChim  7473 aishworyann    6u  IPv6 0x13bf5ded7115d08d      0t0  TCP [fe80:4::aede:48ff:fe00:1122]:55473->[fe80:4::aede:48ff:fe33:4455]:49190 (ESTABLISHED)
+PowerChim  7473 aishworyann    7u  IPv6 0x13bf5ded7115ba0d      0t0  TCP [fe80:4::aede:48ff:fe00:1122]:58981->[fe80:4::aede:48ff:fe33:4455]:49190 (ESTABLISHED)
+PowerChim  7473 aishworyann    8u  IPv6 0x13bf5ded6df11d0d      0t0  TCP [fe80:4::aede:48ff:fe00:1122]:59307->[fe80:4::aede:48ff:fe33:4455]:49190 (ESTABLISHED)
+PowerChim  7473 aishworyann    9u  IPv6 0x13bf5ded71159c0d      0t0  TCP [fe80:4::aede:48ff:fe00:1122]:59590->[fe80:4::aede:48ff:fe33:4455]:49190 (ESTABLISHED)
+PowerChim  7473 aishworyann   10u  IPv6 0x13bf5ded6df1428d      0t0  TCP [fe80:4::aede:48ff:fe00:1122]:62154->[fe80:4::aede:48ff:fe33:4455]:49218 (ESTABLISHED)
+PowerChim  7473 aishworyann   11u  IPv6 0x13bf5ded71e6ff8d      0t0  TCP [fe80:4::aede:48ff:fe00:1122]:62155->[fe80:4::aede:48ff:fe33:4455]:49218 (ESTABLISHED)
+PowerChim  7473 aishworyann   12u  IPv6 0x13bf5ded6df1770d      0t0  TCP [fe80:4::aede:48ff:fe00:1122]:62157->[fe80:4::aede:48ff:fe33:4455]:49218 (ESTABLISHED)
+PowerChim  7473 aishworyann   13u  IPv6 0x13bf5ded6df1608d      0t0  TCP [fe80:4::aede:48ff:fe00:1122]:62158->[fe80:4::aede:48ff:fe33:4455]:49218 (ESTABLISHED)
+PowerChim  7473 aishworyann   14u  IPv6 0x13bf5ded6df1158d      0t0  TCP [fe80:4::aede:48ff:fe00:1122]:62159->[fe80:4::aede:48ff:fe33:4455]:49218 (ESTABLISHED)
+PowerChim  7473 aishworyann   15u  IPv6 0x13bf5ded6defb18d      0t0  TCP [fe80:4::aede:48ff:fe00:1122]:63143->[fe80:4::aede:48ff:fe33:4455]:49218 (ESTABLISHED)
+PowerChim  7473 aishworyann   16u  IPv6 0x13bf5ded6defcf8d      0t0  TCP [fe80:4::aede:48ff:fe00:1122]:63565->[fe80:4::aede:48ff:fe33:4455]:49218 (ESTABLISHED)
+PowerChim  7473 aishworyann   17u  IPv6 0x13bf5ded6def848d      0t0  TCP [fe80:4::aede:48ff:fe00:1122]:63571->[fe80:4::aede:48ff:fe33:4455]:49218 (ESTABLISHED)
+PowerChim  7473 aishworyann   18u  IPv6 0x13bf5ded6def758d      0t0  TCP [fe80:4::aede:48ff:fe00:1122]:63860->[fe80:4::aede:48ff:fe33:4455]:49218 (ESTABLISHED)
+PowerChim  7473 aishworyann   19u  IPv6 0x13bf5ded6defb90d      0t0  TCP [fe80:4::aede:48ff:fe00:1122]:64017->[fe80:4::aede:48ff:fe33:4455]:49218 (ESTABLISHED)
+PowerChim  7473 aishworyann   20u  IPv6 0x13bf5ded7116d90d      0t0  TCP [fe80:4::aede:48ff:fe00:1122]:64351->[fe80:4::aede:48ff:fe33:4455]:49218 (ESTABLISHED)
+figma_age 16086 aishworyann    3u  IPv4 0x13bf5ded73357855      0t0  TCP 127.0.0.1:44950 (LISTEN)
+figma_age 16086 aishworyann    4u  IPv4 0x13bf5ded7331d6f5      0t0  TCP 127.0.0.1:44960 (LISTEN)
+figma_age 16086 aishworyann   11u  IPv4 0x13bf5ded73353595      0t0  TCP 127.0.0.1:18412 (LISTEN)
+figma_age 16086 aishworyann   39u  IPv4 0x13bf5ded73352a75      0t0  TCP 127.0.0.1:7335 (LISTEN)
+WhatsApp  57986 aishworyann   17u  IPv4 0x13bf5ded73367375      0t0  TCP 192.168.220.202:49196->157.240.239.60:443 (ESTABLISHED)
+Notes     65563 aishworyann   13u  IPv4 0x13bf5ded7335fe95      0t0  TCP 192.168.220.202:49858->74.125.130.108:993 (ESTABLISHED)
+Notes     65563 aishworyann   19u  IPv4 0x13bf5ded7335fe95      0t0  TCP 192.168.220.202:49858->74.125.130.108:993 (ESTABLISHED)
+Figma\x20 70741 aishworyann   20u  IPv4 0x13bf5ded7334c0b5      0t0  TCP 192.168.220.202:49826->18.66.78.23:443 (ESTABLISHED)
+Figma\x20 70741 aishworyann   22u  IPv4 0x13bf5ded7334f855      0t0  TCP 192.168.220.202:49175->18.66.78.123:443 (ESTABLISHED)
+Figma\x20 70741 aishworyann   23u  IPv4 0x13bf5ded7335d215      0t0  TCP 192.168.220.202:49177->18.66.78.123:443 (ESTABLISHED)
+Figma\x20 70741 aishworyann   24u  IPv4 0x13bf5ded73350375      0t0  TCP 192.168.220.202:49176->76.223.31.44:443 (ESTABLISHED)
+Figma\x20 70741 aishworyann   25u  IPv4 0x13bf5ded73324bd5      0t0  TCP 192.168.220.202:49178->18.66.78.123:443 (ESTABLISHED)
+Figma\x20 70741 aishworyann   26u  IPv4 0x13bf5ded73365215      0t0  TCP 192.168.220.202:49179->18.66.78.123:443 (ESTABLISHED)
+Figma\x20 70741 aishworyann   27u  IPv4 0x13bf5ded73346215      0t0  TCP 192.168.220.202:49180->18.66.78.123:443 (ESTABLISHED)
+Figma\x20 70741 aishworyann   28u  IPv4 0x13bf5ded7331ed35      0t0  TCP 192.168.220.202:49181->18.66.78.123:443 (ESTABLISHED)
+Figma\x20 70741 aishworyann   29u  IPv4 0x13bf5ded7331c0b5      0t0  TCP 192.168.220.202:49182->18.66.78.123:443 (ESTABLISHED)
+Figma\x20 70741 aishworyann   30u  IPv4 0x13bf5ded73350e95      0t0  TCP 192.168.220.202:49183->18.66.78.123:443 (ESTABLISHED)
+Figma\x20 70741 aishworyann   31u  IPv4 0x13bf5ded7334cbd5      0t0  TCP 192.168.220.202:49875->44.199.170.102:443 (CLOSE_WAIT)
+Local     71445 aishworyann   28u  IPv4 0x13bf5ded733456f5      0t0  TCP 127.0.0.1:4000 (LISTEN)
+Local     71445 aishworyann   66u  IPv4 0x13bf5ded73327855      0t0  TCP 127.0.0.1:4000->127.0.0.1:49173 (ESTABLISHED)
+Local     71445 aishworyann   67u  IPv4 0x13bf5ded7334ed35      0t0  TCP 127.0.0.1:4000->127.0.0.1:49174 (ESTABLISHED)
+Local\x20 71461 aishworyann   20u  IPv4 0x13bf5ded73323595      0t0  TCP 127.0.0.1:49173->127.0.0.1:4000 (ESTABLISHED)
+Local\x20 71461 aishworyann   21u  IPv4 0x13bf5ded733240b5      0t0  TCP 127.0.0.1:49174->127.0.0.1:4000 (ESTABLISHED)

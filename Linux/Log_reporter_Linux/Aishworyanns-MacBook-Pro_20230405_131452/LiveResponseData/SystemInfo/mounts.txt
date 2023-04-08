@@ -1,0 +1,3 @@
+mount points
+cat /proc/mounts
+**********

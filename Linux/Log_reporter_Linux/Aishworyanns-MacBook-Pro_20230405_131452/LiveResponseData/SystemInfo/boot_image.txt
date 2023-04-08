@@ -1,0 +1,3 @@
+Boot image
+cat /proc/cmdline
+**********

@@ -1,0 +1,4 @@
+System environment
+uname -a
+**********
+Darwin Aishworyanns-MacBook-Pro.local 22.1.0 Darwin Kernel Version 22.1.0: Sun Oct  9 20:14:54 PDT 2022; root:xnu-8792.41.9~2/RELEASE_X86_64 x86_64

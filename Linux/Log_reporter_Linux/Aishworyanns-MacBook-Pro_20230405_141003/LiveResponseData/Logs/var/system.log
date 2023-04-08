@@ -1,0 +1,140 @@
+Apr  5 00:12:51 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 00:12:52 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.cdscheduler" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:12:52 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.install" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:12:52 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/asl" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Apr  5 00:12:52 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/system.log" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Apr  5 00:12:52 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.authd" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:12:52 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.eventmonitor" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:12:52 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.mail" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:12:52 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.performance" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:12:52 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.iokit.power" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:12:52 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.contacts.ContactsAutocomplete" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:12:52 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.mkb" sharing output destination "/private/var/log/keybagd.log" with ASL Module "com.apple.mkb.internal".
+	Output parameters from ASL Module "com.apple.mkb.internal" override any specified in ASL Module "com.apple.mkb".
+Apr  5 00:12:52 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.mkb" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:12:52 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.MessageTracer" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:25:37 AishworyannsMBP syslogd[128]: ASL Sender Statistics
+Apr  5 00:29:34 Aishworyanns-MacBook-Pro login[65231]: USER_PROCESS: 65231 ttys000
+Apr  5 00:30:00 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.cdscheduler" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:30:00 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.install" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:30:00 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/asl" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Apr  5 00:30:00 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/system.log" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Apr  5 00:30:00 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.authd" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:30:00 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.eventmonitor" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:30:00 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.mail" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:30:00 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.performance" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:30:00 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.iokit.power" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:30:00 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.contacts.ContactsAutocomplete" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:30:00 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.mkb" sharing output destination "/private/var/log/keybagd.log" with ASL Module "com.apple.mkb.internal".
+	Output parameters from ASL Module "com.apple.mkb.internal" override any specified in ASL Module "com.apple.mkb".
+Apr  5 00:30:00 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.mkb" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:30:00 Aishworyanns-MacBook-Pro syslogd[128]: Configuration Notice:
+	ASL Module "com.apple.MessageTracer" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Apr  5 00:36:48 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 00:46:48 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 00:58:20 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 01:08:32 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 01:18:54 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 01:23:19 Aishworyanns-MacBook-Pro login[65231]: DEAD_PROCESS: 65231 ttys000
+Apr  5 01:38:32 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 01:50:41 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 02:02:28 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 02:13:40 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 02:23:40 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 02:35:29 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 02:52:55 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 03:08:32 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 04:40:38 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 06:40:57 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 08:41:28 AishworyannsMBP syslogd[128]: ASL Sender Statistics
+Apr  5 09:23:21 AishworyannsMBP syslogd[128]: ASL Sender Statistics
+Apr  5 09:51:41 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 10:03:17 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 10:10:37 Aishworyanns-MacBook-Pro login[71162]: USER_PROCESS: 71162 ttys000
+Apr  5 10:12:15 Aishworyanns-MacBook-Pro login[71162]: DEAD_PROCESS: 71162 ttys000
+Apr  5 10:12:16 Aishworyanns-MacBook-Pro login[71296]: USER_PROCESS: 71296 ttys000
+Apr  5 10:12:19 Aishworyanns-MacBook-Pro login[71296]: DEAD_PROCESS: 71296 ttys000
+Apr  5 10:16:13 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 10:17:19 Aishworyanns-MacBook-Pro login[71512]: USER_PROCESS: 71512 ttys000
+Apr  5 10:31:44 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 10:42:06 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 10:44:00 Aishworyanns-MacBook-Pro login[72397]: USER_PROCESS: 72397 ttys001
+Apr  5 10:51:53 Aishworyanns-MacBook-Pro login[72397]: DEAD_PROCESS: 72397 ttys001
+Apr  5 10:52:23 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 11:03:31 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 11:18:23 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 11:20:07 Aishworyanns-MacBook-Pro login[75380]: USER_PROCESS: 75380 ttys001
+Apr  5 11:36:40 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 11:38:02 Aishworyanns-MacBook-Pro login[75380]: DEAD_PROCESS: 75380 ttys001
+Apr  5 11:48:17 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 11:50:03 Aishworyanns-MacBook-Pro login[76395]: USER_PROCESS: 76395 ttys001
+Apr  5 11:51:34 Aishworyanns-MacBook-Pro login[76395]: DEAD_PROCESS: 76395 ttys001
+Apr  5 11:51:50 Aishworyanns-MacBook-Pro login[71512]: DEAD_PROCESS: 71512 ttys000
+Apr  5 11:59:37 Aishworyanns-MacBook-Pro login[76701]: USER_PROCESS: 76701 ttys000
+Apr  5 11:59:37 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 12:01:13 Aishworyanns-MacBook-Pro login[76701]: DEAD_PROCESS: 76701 ttys000
+Apr  5 12:02:50 Aishworyanns-MacBook-Pro login[76958]: USER_PROCESS: 76958 ttys000
+Apr  5 12:06:28 Aishworyanns-MacBook-Pro login[76958]: DEAD_PROCESS: 76958 ttys000
+Apr  5 12:09:39 Aishworyanns-MacBook-Pro login[77311]: USER_PROCESS: 77311 ttys000
+Apr  5 12:09:39 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 12:09:43 Aishworyanns-MacBook-Pro login[77311]: DEAD_PROCESS: 77311 ttys000
+Apr  5 12:22:50 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 12:33:45 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 12:48:21 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 12:58:33 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 13:14:28 Aishworyanns-MacBook-Pro login[79133]: USER_PROCESS: 79133 ttys000
+Apr  5 13:14:28 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 13:18:48 Aishworyanns-MacBook-Pro login[79133]: DEAD_PROCESS: 79133 ttys000
+Apr  5 13:34:19 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 13:44:54 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 14:09:32 Aishworyanns-MacBook-Pro syslogd[128]: ASL Sender Statistics
+Apr  5 14:09:38 Aishworyanns-MacBook-Pro login[79981]: USER_PROCESS: 79981 ttys000
