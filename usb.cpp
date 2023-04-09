@@ -50,15 +50,15 @@ void download_file_for_Windows(){
                    "database.ver","gethex.exe",
                    "sha256.exe","waitdirchange.exe" };
     //IR FLASH          
-    string url_1 = "https://github.com/aishworyann/USB_Audit_tool/blob/a0646984abbfb0c5e0d87a32e45b58b1b80b6f21/Win/IR-Flash-main/IR-Dump/IR-dump.bat";
-    string url_2 ="https://github.com/aishworyann/USB_Audit_tool/blob/125f2229ac3b2240e660b7fb232aafc6b79c9e77/Win/update_os_firewall.ps1";
+    string url_1 = "https://raw.githubusercontent.com/aishworyann/USB_Audit_tool/master/Win/IR-Flash-main/IR-Dump/IR-dump.bat";
+    string url_2 ="https://raw.githubusercontent.com/aishworyann/USB_Audit_tool/master/Win/update_os_firewall.ps1";
     
-    system(("curl -s -L " + url_1 + " -o dest_win/Audit/IR-dump.bat").c_str());
-    system(("curl -s -L " + url_1 + " -o dest_win/Audit/update_os_firewall.ps1").c_str());
+    system(("curl -s -L " + url_1 + " -o C:/Audit/IR-dump.bat").c_str());
+    system(("curl -s -L " + url_1 + " -o C:/Audit/update_os_firewall.ps1").c_str());
 
     //MALWARE
     for(int i=0;i< sizeof(arr)/sizeof(arr[0]);i++){
-        system(("curl -s -L " + raw+arr[i] + " -o dest_win/Audit/malware/"+arr[i]).c_str());
+        system(("curl -s -L " + raw+arr[i] + " -o C:/Audit/malware/"+arr[i]).c_str());
     }
     
     //
@@ -84,14 +84,14 @@ int main()
         //for making malware folder
         strcpy(cmd, "mkdir \"C:/Audit\"");
         runcmd(cmd, 1);
-        strcpy(cmd, "mkdir \"dest_win/Audit/malware\"");
+        strcpy(cmd, "mkdir \"C:/Audit/malware\"");
         runcmd(cmd, 1);
         std::cout << "Hello, Windows!" << '\n';
         download_file_for_Windows();
         //executing 
-        strcpy(cmd, "cd \"dest_win/Audit/update_os_firewall.ps1\"");
+        strcpy(cmd, "cd \"C:/Audit/update_os_firewall.ps1\"");
         runcmd(cmd, 1);
-        strcpy(cmd, "cd \"dest_win/Audit/IR-dump.bat\"");
+        strcpy(cmd, "cd \"C:/Audit/IR-dump.bat\"");
         runcmd(cmd, 1);
         
 #endif
