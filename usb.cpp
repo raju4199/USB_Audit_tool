@@ -51,10 +51,10 @@ void download_file_for_Windows(){
                    "sha256.exe","waitdirchange.exe" };
     //IR FLASH          
     string url_1 = "https://raw.githubusercontent.com/aishworyann/USB_Audit_tool/master/Win/IR-Flash-main/IR-Dump/IR-dump.bat";
-    string url_2 ="https://raw.githubusercontent.com/aishworyann/USB_Audit_tool/master/Win/update_os_firewall.ps1";
+    string url_2 ="https://raw.githubusercontent.com/aishworyann/USB_Audit_tool/master/Win/update_os_firewall.bat";
     
     system(("curl -s -L " + url_1 + " -o C:/Audit/IR-dump.bat").c_str());
-    system(("curl -s -L " + url_1 + " -o C:/Audit/update_os_firewall.ps1").c_str());
+    system(("curl -s -L " + url_2 + " -o C:/Audit/update_os_firewall.bat").c_str());
 
     //MALWARE
     for(int i=0;i< sizeof(arr)/sizeof(arr[0]);i++){
@@ -89,7 +89,7 @@ int main()
         std::cout << "Hello, Windows!" << '\n';
         download_file_for_Windows();
         //executing 
-        strcpy(cmd, "cd \"C:/Audit/update_os_firewall.ps1\"");
+        strcpy(cmd, "cd \"C:/Audit/update_os_firewall.bat\"");
         runcmd(cmd, 1);
         strcpy(cmd, "cd \"C:/Audit/IR-dump.bat\"");
         runcmd(cmd, 1);
