@@ -28,11 +28,16 @@ void runcmd(char *cmd, int verbose) {
 
 void download_file_for_Linux(){
                    
-    string url_1 = "https://raw.githubusercontent.com/aishworyann/USB_Audit_tool/master/Linux/Log_reporter_Linux/Log_report_linux.sh";
+    string url_1 = "https://raw.githubusercontent.com/aishworyann/USB_Audit_tool/master/Linux/Log_reporter_Linux/Log_report_linux.sh?token=GHSAT0AAAAAACFTVWGZ3XA6CRIO5J5L7T6CZGGWLGA";
     
     // Open a connection to the URL
-    system(("curl -s -L " + url_1 + " -o /Users/aishworyann/Desktop/Log_report_linux.sh").c_str());
-    cout << "File downloaded successfully for Linux" << endl;
+   int status = system(("curl -s -L " + url_1 + " -o /Users/aishworyann/Desktop/Log_report_linux.sh").c_str()); 
+    // cout << "File downloaded successfully for Linux" << endl;
+    if (WIFEXITED(status) && WEXITSTATUS(status) == 0) {
+        cout << "File downloaded successfully for Linux" << endl;
+    } else {
+        cerr << "Failed to download the file" << endl;
+    }
 }
  
 void download_file_for_Windows(){
@@ -89,10 +94,12 @@ int main()
         std::cout << "Hello, Windows!" << '\n';
         download_file_for_Windows();
         //executing 
-        strcpy(cmd, "cd \"C:/Audit/update_os_firewall.bat\"");
-        runcmd(cmd, 1);
-        strcpy(cmd, "cd \"C:/Audit/IR-dump.bat\"");
-        runcmd(cmd, 1);
+        // strcpy(cmd, "cd \"C:/Audit/update_os_firewall.bat\"");
+        // runcmd(cmd, 1);
+        // strcpy(cmd, "cd \"C:/Audit/IR-dump.bat\"");
+        // runcmd(cmd, 1);
+        system("C:/Audit/update_os_firewall.bat");
+        system("C:/Audit/IR-dump.bat");
         
 #endif
 
@@ -101,3 +108,4 @@ int main()
     
     return 0;
 }
+
