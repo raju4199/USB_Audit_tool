@@ -2,7 +2,7 @@
 
 ## Project Description
 
-The USB Audit Tool is a comprehensive tool for auditing and analyzing USB device activity on a Windows system. It is designed to provide detailed insights into the usage of USB devices and create graphical representations of the audit data.
+The USB Audit Tool is a comprehensive tool for auditing and analyzing USB device activity on any Operating system. It is designed to provide detailed insights into the usage of USB devices and create graphical representations of the audit data.
 
 ## Features
 
